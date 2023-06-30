@@ -1,5 +1,5 @@
 # Objectif
-## Connaître les outils nécessaires pour faire du développement en Java et les installer sur son poste.
+Connaître les outils nécessaires pour faire du développement en Java et les installer sur son poste.
 
 # Informations
 Pour développer des applications en Java, plusieurs éléments sont nécessaires:
