@@ -52,14 +52,14 @@ Résultat désiré à la sortie (console) :
 >3<br>
 >2<br>
 >1<br>
->Décollage !!<br>
+>Décollage !!<br><br>
 >Boucle while:<br>
 >5<br>
 >4<br>
 >3<br>
 >2<br>
 >1<br>
->Décollage !!<br>
+>Décollage !!<br><br>
 >Boucle do-while:<br>
 >5<br>
 >4<br>
