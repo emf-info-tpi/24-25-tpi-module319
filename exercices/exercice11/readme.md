@@ -11,11 +11,11 @@ Pour chaque exercice, faites une nouvelle méthode qui sera appelée depuis votr
 ### La méthode qui dit bonjour
 Déclarez une méthode `direBonjour` qui n'accepte aucun paramètre et qui ne retourne rien. Cette méthode va simplement afficher "Bonjour" à la console. 
 
-### Exercice 2 : La méthode qui dit n'importe quoi 
+### La méthode qui dit n'importe quoi 
 
 Déclarer une méthode `dire` qui accepte un paramètre de type `String` et qui l'affiche à la console. Cette méthode <u>ne retourne rien</u>. 
 
-### Exercice 3 : Les méthodes de la classe Math 
+### Les méthodes de la classe Math 
 
 Expérimentez et décrivez à quoi servent les méthodes suivantes de la classes `Math`. 
 
@@ -24,7 +24,7 @@ Expérimentez et décrivez à quoi servent les méthodes suivantes de la classes
  - Pow 
  - Sqrt 
  - Abs 
-### Exercice 4 : La manipulation de tableaux avec les méthodes 
+### La manipulation de tableaux avec les méthodes 
 
 Pour cette partie d'exercice, créez un nouveau projet que vous nommerez "ExercicesMethodesTableaux". 
 
