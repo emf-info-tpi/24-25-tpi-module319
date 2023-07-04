@@ -18,6 +18,10 @@ Téléchargez les programmes d'installations sur votre machine et exécutez-les.
 note : 
 Créer compte github avec mail pro
 + suite avec classroom
+clone repo
+silvin@LAPEMFB37-05:~/Documents/Java/319/module319$ git config --global user.name "Silvin"
+silvin@LAPEMFB37-05:~/Documents/Java/319/module319$ git config --global user.email "silvin.meylan@gmail.com"
+
 vscode dejà installé
 - reste installation git
 - installer extension java (premier package) Extension Pack for Java
