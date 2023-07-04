@@ -21,9 +21,7 @@ Consignes :
 
 
   ## Exemple d'affichage souhaité
-
 Quand le nombre est trouvé (c’est le hasard qui décide)
-  
 ```
   Tableau[0] = [31]
   Tableau[1] = [3]
@@ -49,7 +47,6 @@ Quand le nombre est trouvé (c’est le hasard qui décide)
   La plus grande valeur trouvée est : 44
   Le nombre [7] figure à la position [15] du tableau
 ```
-
 Quand le nombre n’est pas trouvé (c’est le hasard qui décide) 
 ```
 Tableau[0] = [40]
