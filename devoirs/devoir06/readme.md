@@ -14,10 +14,10 @@ Consignes :
 - Déclarez et implémentez une méthode intitulée rechercheValeurqui acceptera deux paramètres et qui retournera un entier. Cette méthode permettra de chercher une valeur dans un tableau. Le premier paramètre  sera  de  type  « tableau  d’entiers »  et  contiendra  le  tableau  dans  lequel  on  cherchera  la  valeur.  Le  deuxième  paramètre  sera  de  type  « entier »  et  contiendra  la  valeur  à  rechercher.  On retournera la position (ou l’index) de lavaleur recherchée dans le tableau. Dans le cas où la valeur n’est pas trouvée, on retournera -1.
 
 - Dans le main :
--- Déclarer  une  variable  tableau  de  type  tableau  d’entiers  et  initialisez  la  avec  la  méthode  genereTableau. Utilisez les constantes VALEUR_MIN, VALEUR_MAX et TAILLE_TABLEAU pour l’appel à cette méthode !
--- Affichez le contenu de ce tableau à la console.
--- Affichez le min et le max des valeurs contenues dans ce tableau à la console (en utilisant les méthodes précédemment rechercheMinet rechercheMax).
--- Afficher la position de la valeur VALEUR_RECHERCHEE dans le tableau (en utilisant la méthode rechercheValeur).
+    * Déclarer  une  variable  tableau  de  type  tableau  d’entiers  et  initialisez  la  avec  la  méthode  genereTableau. Utilisez les constantes VALEUR_MIN, VALEUR_MAX et TAILLE_TABLEAU pour l’appel à cette méthode !
+    * Affichez le contenu de ce tableau à la console.
+    * Affichez le min et le max des valeurs contenues dans ce tableau à la console (en utilisant les méthodes précédemment rechercheMinet rechercheMax).
+    * Afficher la position de la valeur VALEUR_RECHERCHEE dans le tableau (en utilisant la méthode rechercheValeur).
 
 
   ## Exemple d'affichage souhaité
