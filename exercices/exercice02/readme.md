@@ -18,13 +18,18 @@ public class Exercice02 {
 }
 ```
 
+Tout le code que vous écrirez dans ce module devra se trouver à l'intérieur d'une classe. La classe est délimitée par les accolades. Votre code doit donc se trouver entre les accolades : { ICI }
+Le point d'entrée du code, là ou l'execution va commencer, s'appelle la méthode main. 
+- Créez la méthode main à l'intérieur de la classe. La méthode main s'écrit de la manière suviante : 
+```
+public static void main(String[] args) {
 
+}
+```
+- Écrivez votre première ligne de code dans la méthode main. Les lignes de codes doivent être écrite dans des méthodes (ici la méthode main). Et les lignes de code finissent généralement par un point-virgule. Ici écrivez la ligne de code permettant d'afficher un message "Bonjour tout le monde!" dans la console.
+```
+System.out.println("Bonjour tout le monde!");
+```
 
-## Exercices
+- Testez votre programme. Pour cela, lancez le en faisant un clique droit sur le fichier "Exercice02.java" et en séléectionnant l'option "Run Java".
 
-### La méthode qui dit bonjour
-Déclarez une méthode `direBonjour` qui n'accepte aucun paramètre et qui ne retourne rien. Cette méthode va simplement afficher "Bonjour" à la console. 
-
-### La méthode qui dit n'importe quoi 
-
-Déclarer une méthode `dire` qui accepte un paramètre de type `String` et qui l'affiche à la console. Cette méthode <u>ne retourne rien</u>. 
