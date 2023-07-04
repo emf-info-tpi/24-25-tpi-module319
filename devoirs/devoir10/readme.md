@@ -12,12 +12,12 @@ Il  suffit  ensuite  de  vérifier  si  le  point  aléatoirement  généré  es
 
 Du  coup,  avec  cette  méthode  géniale,  en  générant  suffisamment  de  points  aléatoires,  on  peut  estimer  le  nombre π de manière simple : le rapport du nombre de points dans la zone verte et le nombre total de points générés aura la même valeur que le rapport des surfaces verte et rouge et vaudra π/4.:
 
-
-IMAGE 1 
+![image](https://github.com/emf-info-319/module319/assets/48353440/48f46af9-7ef7-47aa-a5aa-d2bc40f1b4ab)
 
 On pourra donc estimer π avec la formule suivante :
 
-IMAGE 2
+![image](https://github.com/emf-info-319/module319/assets/48353440/392ebe1f-ed58-455e-928f-7e910ac290cd)
+
 
 ## Travail à réaliser
 
