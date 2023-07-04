@@ -30,6 +30,8 @@ public static void main(String[] args) {
 ```
 System.out.println("Bonjour tout le monde!");
 ```
+Astuce: au lieu d'écrire toute la méthode System.out.println, dans VSCode, si vous taper  uniquement "sout" puis vous appuyez sur la touche Enter du clavier, VSCode fera le travail pour vous ;-) 
 
 - Testez votre programme. Pour cela, lancez le en faisant un clique droit sur le fichier "Exercice02.java" et en séléectionnant l'option "Run Java".
 
+- Décrivez le résultat obtenu et résumez ce que vous avez fait dans votre RP.
