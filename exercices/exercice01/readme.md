@@ -11,3 +11,14 @@ Pour développer des applications en Java, plusieurs éléments sont nécessaire
 
 ## Travail à réaliser
 Téléchargez les programmes d'installations sur votre machine et exécutez-les. 
+
+
+
+
+note : 
+Créer compte github avec mail pro
++ suite avec classroom
+vscode dejà installé
+- reste installation git
+- installer extension java (premier package) Extension Pack for Java
+

@@ -1,11 +1,20 @@
-Objectif
-Connaître les outils nécessaires pour faire du développement en Java et les installer sur son poste.
+# Exercice 2 : Hello World !
 
-Informations
-Pour développer des applications en Java, plusieurs éléments sont nécessaires:
-•	Un JRE (Java Runtime Environment) qui permet d'exécuter un programme écrit en Java
-•	Un JDK (Java Development Kit) qui permet de créer un programme en Java. Le JDK contient un JRE, si on installe un JDK, il n'est donc pas nécessaire d'installer un JRE.
-•	Un IDE (Integrated Development Environmnet) qui offre les outils afin de pouvoir développer efficacement des programmes en Java. A l'EMF, nous utilisons l'outils VSCode comme IDE.
+## Objectif
+Tester l'environnement de développement et écrire son premier programme Java.
 
-Travail à réaliser
-Téléchargez les programmes d'installations sur votre machine et exécutez-les. 
+## Travail à réaliser
+Pour démarrer avec un nouvel exercice, réalisez les 2 étapes suivantes: 
+- Démmarrez VSCode et ouvrez votre dossier qui se trouve sur Github
+- Sélectionnez le sous-dossier correspondant à votre exercice (ici exercice02), faites un "File" -> "New File"
+![Alt text](image-1.png)
+
+
+## Exercices
+
+### La méthode qui dit bonjour
+Déclarez une méthode `direBonjour` qui n'accepte aucun paramètre et qui ne retourne rien. Cette méthode va simplement afficher "Bonjour" à la console. 
+
+### La méthode qui dit n'importe quoi 
+
+Déclarer une méthode `dire` qui accepte un paramètre de type `String` et qui l'affiche à la console. Cette méthode <u>ne retourne rien</u>. 
