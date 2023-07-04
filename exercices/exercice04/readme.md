@@ -1,4 +1,6 @@
-# Objectif
+# Exercice 4 : Types de base
+
+## Objectif
 
 Expérimenter les types de base avec Java.
 
