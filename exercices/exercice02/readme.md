@@ -7,7 +7,6 @@ Tester l'environnement de développement et écrire son premier programme Java.
 Pour démarrer avec un nouvel exercice, réalisez les 2 étapes suivantes: 
 - Démmarrez VSCode et ouvrez votre dossier qui se trouve sur Github
 - Sélectionnez le sous-dossier correspondant à votre exercice (ici exercice02), faites un "File" -> "New File"
-![Alt text](image-1.png)
 
 
 
