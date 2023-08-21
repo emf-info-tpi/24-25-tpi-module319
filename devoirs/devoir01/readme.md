@@ -4,8 +4,7 @@
 Révision des concepts vus en classe. Identification des sujets pas compris. Mise en pratique des concepts Java de base vus en classe. Utilisation des outils. Recherche. Liens entre les sujets.
 
 ## Travail à réaliser
-1. Créez un nouveau projet Java et nommez-le 403_Devoir_01_NOM_Prenom
-_Choisissez de mettre le dossier du projet sur le bureau_
+1. Faites un nouveau programme Java dans le dossier devoir01 nommé devoir01.
 2. Dans le main() de votre programme, déclarez -une variable monAge et donnez-lui une valeur
 _De quel type doit-t-elle être cette variable ?
 _On modifiera plus tard la valeur de cette variable pour tester si le programme fonctionne comme il doit._
