@@ -17,7 +17,8 @@ Voici les tâches à réaliser pour l'implémentation de ce programme :
 * La boucle s'arrête lorsqu'il n'y a plus rien à remplir.
 Indication : pour la boucle, vous devez itérer tant que la somme `reservoirA` + `reservoirB` est inférieure à la variable `remplissage`!
 
-![image]()
+![reservoirs](https://github.com/emf-info-319/module319/assets/125544717/419fd081-3018-4399-90c1-4a3372b6055c)
+
 
   ## Exemple d'affichage souhaité
 ```
