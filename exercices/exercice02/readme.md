@@ -1,5 +1,9 @@
 # Exercice 2 : Hello World !
 
+
+![WEB-Fribourg-Ecole-Metiers-Foto4](https://github.com/emf-info-319/module319/assets/48353440/570587a8-b90c-4be7-b28c-e39cab7c4538)
+
+
 ## Objectif
 Tester l'environnement de A partir de là, vous obtenez un programme vide où vous pourrez commencer à écrire les instructions dans la méthode main, là où Java débute son exécution. Á partir de là, vous obtenez un programme vide où vous pourrez commencer à écrire les instructions dans la méthode main, là où Java débute son exécution.
 
