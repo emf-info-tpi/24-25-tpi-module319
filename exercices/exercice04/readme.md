@@ -1,20 +1,34 @@
-# Exercice 4 : Types de base
+# Exercice 4 : l'échange des valeurs
 
 ## Objectif
 
-Expérimenter les types de base avec Java.
+- Revoir les notions de déclaration et affectation de variables.
+- Implémenter un premier algorithme.
 
 ## Travail à réaliser
 
-- Pour commencer, créez un nouveau fichier Java que vous nommerez TypesDeBase et que vous devez créer dans le répertoire exercice04.
-- Déclarez la variable age pouvant contenir l'âge d'une personne (chiffre entier) avec le type approprié
-- Déclarez la variable nom pouvant contenir le prénom d'une personne
-- Affichez à la console la ligne suivante en utilisant vos variables :Je m’appelle XXX et j’ai YYY années. Le XXX et le YYY représente le contenu de vos variables.
 
-- Pour terminer, calculez et affichez l'âge qu'aura cette personne dans 10 ans.
+Il  s'agit  d'un  classique en  matière  d'algorithmique, on  désire  un  programme  qui  déclare  deux  variables, y affecte deux valeurs différentes et ensuite échange ces valeurs.
 
-## Récapitulatif 
-- Créer des variables de différents types en Java
-- Faire des calculs simples avec des variables
-- Afficher des informations et la valeurs de variables sur la console
+Pour cela, on va utiliser deux variables nommées variable1 et variable2 dont voici le contenu:
+- Situation de départ :
+```
+variable1=1;
+variable2=2;
+```
 
+- Situation après le traitement :
+```
+variable1=2;
+variable2=1;
+```
+
+Voici la sortie désirée :
+
+```
+Le contenu de la variable1 est : 1.
+Le contenu de la variable2 est : 2.
+.... Traitement ....
+Le contenu de la variable1 est : 2.
+Le contenu de la variable2 est : 1.
+```

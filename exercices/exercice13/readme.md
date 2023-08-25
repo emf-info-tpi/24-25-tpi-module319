@@ -1,45 +1,74 @@
-# Exercice 13 : Les chaînes de caractères
+# Exercice 13 : BruteForce
 
 ## Objectif
-Utilisation de la classe String pour manipuler les chaînes de caractères avec Java. 
+Être capable de représenter la logique d'une application à l'aide d'un structogramme. 
+
+Développer un algorithme simple (à la suite du devoir de génération de mot de passe). 
 
 ## Travail à réaliser
-Pour commencer, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExercicesString. Vous pourrez ensuite réaliser les éléments suivants :  
+L'attaque par force brute est une méthode utilisée en cryptanalyse pour trouver un mot de passe ou une clé. Il s'agit de tester, une à une, toutes les combinaisons possibles. Par exemple, pour un mot de passe ne contenant 4 caractères de type numérique, une méthode brute force testera toutes les possibilités en partant de 0000 :  
 
-1. Déclarez une variable de type String avec le nom `maChaineDeCaractere`. 
+**0000** 
 
-2. Affectez la valeur "Voici du contenu stocké dans un String." à la variable `maChaineDeCaractere`. 
+**0001** 
 
-3. Indiquez (avec un sout) le nombre de caractères contenu dans la variable `maChaineDeCaractere`. 
+**0002** 
 
-4. Indiquez (avec un sout) à quelle position de la chaîne de caractères commence le texte "contenu" dans la variable `maChaineDeCaractere`. Observez comment Java numérote les positions ! 
+**…** 
 
-5. Indiquez (avec un sout) quelle est la lettre contenue à la position 10 de la variable `maChaineDeCaractere`. 
+**9999** 
 
-Résultat désiré à la sortie (console) : 
+## Définir l’algorithme 
 
->Nombre de caractères contenu dans la variable maChaineDeCaractere : 39 <br>
->Le mot "contenu" commence à la position : 9 <br>
->Le position 17 contient la lettre : s <br>
+Avec Structorizer, définissez un algorithme qui vous permettra de tester toutes les combinaisons possibles d’un mot de passe.  
 
-6. Déclarez maintenant une nouvelle variable de type String avec le nom `monPrenom`. 
+Dans cet exercice, le mot de passe ne peut contenir **<u>que 4 caractères et uniquement des chiffres</u>**. 
 
-7. Affectez cette variable avec votre prénom. 
+Vous pouvez utiliser la méthode « boolean testPassword(String password) » qui testera le mot de passe pour vous et qui retournera un boolean indiquant si vous avez trouvé le bon mot de passe. 
 
-8. A l'aide d'une boucle for, affichez lettre par lettre le contenu de la variable `monPrenom`. 
+## Coder le ! 
 
-Résultat désiré à la sortie (console) : 
+Cette fois-ci, le mot de passe contient **<u>5 caractères</u>**. Il peut contenir des chiffres et des lettres minuscules. Codez votre algorithme dans la méthode main en vous basant sur le code donné ci-dessous. 
 
->La lettre à la position 0 est : N <br>
->La lettre à la position 1 est : i <br>
->La lettre à la position 2 est : c <br>
->La lettre à la position 3 est : o <br>
->La lettre à la position 4 est : l <br>
->La lettre à la position 5 est : a <br>
->La lettre à la position 6 est : s <br>
+Utilisez le tableau « CHARACTERS » qui liste tous les caractères disponibles pour le mot de passe. 
 
-9. Pour terminer, testez si la variable `monPrenom` contient la chaîne de caractères "test" 
+Utilisez la méthode testPassword en lui donnant un mot de passe et elle vous retournera si c’est le bon ou non. 
 
-Résultat désiré à la sortie (console) : 
+Lorsque le programme trouve le mot de passe, il doit l’afficher sur la console. 
 
->La chaîne de caractère "Nicolas" ne contient pas le texte "test". 
+ 
+```java
+    public static final String PASSWORD = "YnJhdjA"; 
+
+    public static final char[] CHARACTERS = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}; 
+
+ 
+
+    public static void main(String[] args) { 
+
+        // Realiser le code ici 
+
+    } 
+
+ 
+
+    public static boolean testPassword(String password) { 
+
+        boolean retour = false; 
+
+        byte[] decodedBytes = Base64.getDecoder().decode(PASSWORD); 
+
+        String decodedPwd = new String(decodedBytes); 
+
+ 
+
+        if (password.equals(decodedPwd)) { 
+
+            retour = true; 
+
+        } 
+
+        return retour; 
+
+    } 
+    ```
