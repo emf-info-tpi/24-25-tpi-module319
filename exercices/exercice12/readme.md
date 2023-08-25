@@ -4,7 +4,7 @@
 Utilisation de la classe String pour manipuler les chaînes de caractères avec Java. 
 
 ## Travail à réaliser
-Pour commencer, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExercicesString. Vous pourrez ensuite réaliser les éléments suivants :  
+Pour commencer, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez `ExercicesString`. Vous pourrez ensuite réaliser les éléments suivants :  
 
 1. Déclarez une variable de type String avec le nom `maChaineDeCaractere`. 
 
@@ -43,3 +43,7 @@ Résultat désiré à la sortie (console) :
 Résultat désiré à la sortie (console) : 
 
 >La chaîne de caractère "Nicolas" ne contient pas le texte "test". 
+
+## Récapitulatif 
+- Comprendre le type String (qui n'est pas un type de base!)
+- Découvrir les méthodes fournies par la classe String
