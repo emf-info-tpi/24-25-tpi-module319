@@ -32,13 +32,12 @@ Pour cette famille d'opérateurs :
 - Faites une description générale de la famille d'opérateurs
 - Trouvez les opérateurs qui composent cette famille et pour chacun de ces opérateurs :
     - Indiquez à quoi il sert
-    - Donnez un exemple en Java
+    - Réalisez un exemple en Java dans un projet operateurCalcul.java (à changer selon l'opérateur de votre groupe) que vous créez dans le dossier exercice07.
 
 A l'issue du temps de préparation (15'), le présentateur donnera oralement les éléments découverts par le groupe au prof qui les relèvera au tableau.
 
 
-
 ## Récapitulatif 
-- Créer des variables de différents types en Java
-- Tester des valeurs avec des conditions Switch en Java
-- Afficher des informations différentes en fonction des Switch case
+- Découvrir les familles d'opérateurs en Java
+- Tester des découvertes en code
+- Présenter les résultats de groupe aux autres
