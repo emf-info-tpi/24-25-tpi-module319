@@ -3,7 +3,7 @@
 Révision des concepts vus en classe et identification des sujets pas compris. Réflexion algorithmique et mise en pratique des tests, switch, expressions et variables.
 
 ## Travail à réaliser
-* Faites un nouveau programme Java dans le dossier devoir03 nommé devoir03.
+* Faites un nouveau programme Java dans le dossier `devoir03` nommé `devoir03`.
 * Votre programme va commencer par déclarer 3 variables entières `jour`, `mois` et `annee`.
 * Donnez à ces 3 variables la date du jour.
 * Votre programme va devoir interpréter ces 3 variables pour calculer et affiche « quel jour de l’An sommes-nous ». Le 1er janvier est défini comme le jour N°1 et le 31 décembre le N°365 (ou 366 lors des années bissextiles)

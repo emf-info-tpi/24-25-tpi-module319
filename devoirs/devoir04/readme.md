@@ -3,7 +3,7 @@
 Révision des concepts vus en classe et identification des sujets pas compris. Réflexion algorithmique et mise en pratique des tests, switch, expressions et variables.
 
 ## Travail à réaliser
-* Faites un nouveau programme Java dans le dossier devoir04 nommé devoir04.
+* Faites un nouveau programme Java dans le dossier `devoir04` nommé `devoir04`.
 * Votre programme va commencer par déclarer 3 variables entières year, month et day.
 * Donnez à ces 3 variables la date du jour.
 * Votre programme va interpréter ces 3 variables year, month et day pour :

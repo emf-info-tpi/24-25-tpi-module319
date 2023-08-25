@@ -2,7 +2,7 @@
 ## Objectifs
 Mettre en pratique les concepts suivants qui ont été vus en classe (variables, constantes, tests, boucles).
 ## Travail à réaliser
-Faites un nouveau programme Java dans le dossier devoir02 nommé devoir02.
+Faites un nouveau programme Java dans le dossier `devoir02` nommé `devoir02`.
 On imagine que vous développiez le programme qui commande le remplissage de deux réservoirs. Les deux réservoirs sont matérialisés par deux variables `reservoirA` et `reservoirB` qui contiennent chacune le nombre de litres contenus dans les réservoirs respectifs. Au départ, ces réservoirs sont vides.
 Voici les tâches à réaliser pour l'implémentation de ce programme :
 * Déclarez deux constantes nommées `CAPACITE_RESERVOIR_A` et `CAPACITE_RESERVOIR_B` contenant deux entiers avec les valeurs respectives de 3 et 5.
@@ -21,19 +21,18 @@ Indication : pour la boucle, vous devez itérer tant que la somme `reservoirA` +
 
 
   ## Exemple d'affichage souhaité
-```
-Il y a 5 litres à remplir.
-Remplissage du réservoir A...
-Le réservoir A : 1, le réservoir B : 0
-Remplissage du réservoir A...
-Le réservoir A : 2, le réservoir B : 0
-Remplissage du réservoir A...
-Le réservoir A : 3, le réservoir B : 0
-Remplissage du réservoir B...
-Le réservoir A : 3, le réservoir B : 1
-Remplissage du réservoir B...
-Le réservoir A : 3, le réservoir B : 2
-Remplissage terminé!
-```
+>Il y a 5 litres à remplir. <br>
+>Remplissage du réservoir A... <br>
+>Le réservoir A : 1, le réservoir B : 0 <br>
+>Remplissage du réservoir A... <br>
+>Le réservoir A : 2, le réservoir B : 0 <br>
+>Remplissage du réservoir A... <br>
+>Le réservoir A : 3, le réservoir B : 0 <br>
+>Remplissage du réservoir B... <br>
+>Le réservoir A : 3, le réservoir B : 1 <br>
+>Remplissage du réservoir B... <br>
+>Le réservoir A : 3, le réservoir B : 2 <br>
+>Remplissage terminé! <br>
+
 ## Restitution du devoir
 Faites un commit/push avant la date limite fixée par votre enseignant.

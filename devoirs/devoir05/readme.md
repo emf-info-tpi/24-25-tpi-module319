@@ -3,7 +3,7 @@
 Réviser les concepts vus en classe et identification des sujets pas compris. Réflexion algorithmique et mise en pratique des tests, expressions, variables, boucles.
 
 ## Travail à réaliser
-Faites un nouveau programme Java dans le dossier devoir05 nommé devoir05.
+Faites un nouveau programme Java dans le dossier `devoir05` nommé `devoir05`.
 * Votre programme va réaliser un jeu très connu et généralement joué par deux personnes :
 * la première personne pense à un nombre entre 1 et 100
 * la seconde personne va essayer de deviner ce nombre et recevra à chaque fois l’une des trois indications possibles « trop petit », « trop grand » ou « Bravo, trouvé ! »
