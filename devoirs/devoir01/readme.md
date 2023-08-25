@@ -3,12 +3,11 @@
 ## Objectifs
 - Révision des concepts vus en classe. Identification des sujets pas compris
 - Mise en pratique des concepts Java de base vus en classe - Utilisation des outils
-- Recherche
-- Liens entre les sujets
+- Recherche et liens entre les sujets
 
 ## Travail à réaliser
 1. Faites un nouveau programme Java dans le dossier `devoir01` nommé `devoir01`.
-2. Dans le `main()` de votre programme, déclarez -une variable `monAge` et donnez-lui une valeur
+2. Dans le `main()` de votre programme, déclarez -une variable `monAge` et donnez-lui une valeur. 
 _On quel type doit-t-elle être cette variable ?_
 _On modifiera plus tard la valeur de cette variable pour tester si le programme fonctionne comme il doit._
 3. Déclarez une variable `estMajeur`
@@ -25,8 +24,8 @@ _Remplacez par votre propre nom et prénom bien entendu_
 _xx étant le contenu de la variable monAge_
 
 7. Affichez : 
->Je suis majeur
->Je ne suis pas encore majeur
+>Je suis majeur <br>
+>Je ne suis pas encore majeur <br>
 _en fonction du contenu de votre variable `estMajeur`_
 _Trouvez comment faire une chose ou une autre, en fonction du contenu d’une variable qu’il vous faut tester. Indice : similaire au pt. 4_
 8. Executez votre programme pas par pas et vérifiez qu’il fait bien exactement ce qui précède. Si ce n’est pas le cas, trouvez l’erreur et corrigez-là.
