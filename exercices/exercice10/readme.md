@@ -4,6 +4,7 @@
 Se familiariser avec les méthodes en Java.
 
 ## Travail à réaliser
+créez un nouveau fichier Java que vous nommerez `Methodes` et que vous devez créer dans le répertoire `exercice10`.
 Pour chaque exercice, faites une nouvelle méthode qui sera appelée depuis votre main.
 
 ## Exercices
@@ -111,3 +112,8 @@ Testez ensuite ces méthodes depuis le main pour obtenir la sortie suivante à l
 N.B. Le contenu affiché change chaque fois!
 
 <u>Pour terminer, documentez ces méthodes dans votre RP</u> (chapitre 3 : "Algorithmique de base – méthodes fréquemment utiles"). 
+
+## Récapitulatif 
+- Découvrir les méthodes en Java
+- Créer et implémenter des méthodes simple en Java
+- Appeler des méthodes en Java et au besoin, reprendre la valeur de retour

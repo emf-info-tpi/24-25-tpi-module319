@@ -4,7 +4,7 @@
 Se familiariser avec les structures de tableaux en Java.
 
 ## Travail à réaliser
-Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExerciceTableaux1, ExerciceTableaux2, etc…
+Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez `ExerciceTableaux1`, `ExerciceTableaux2`, etc…
 
 ## Exercices
 
@@ -44,3 +44,8 @@ Exemple du résultat désiré à la sortie avec le nombre de départ 17 (console
 >Cellule 0 : 18 <br>
 >Cellule 1 : 19 <br>
 >Cellule 2 : 20 <br>
+
+## Récapitulatif 
+- Découvrir les tableaux en Java
+- Déclarer et créer des tableaux en Java
+- Remplir des tableaux à la création ou dynamiquement

@@ -4,7 +4,7 @@
 Se familiariser avec les tableaux en Java.
 
 ## Travail à réaliser
-Pour commencer, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExercicesInversionTableau. Vous pourrez ensuite implémenter toutes les méthodes dans le même projet. 
+Pour commencer, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez `ExercicesInversionTableau`. Vous pourrez ensuite implémenter toutes les méthodes dans le même projet. 
 
 ## Exercices
 
@@ -55,3 +55,7 @@ La sortie désirée à la console est la suivante :
 >Tableau final [0] = 8  <br>
 >Tableau final [0] = 5  <br>
 >Tableau final [0] = 12 <br>
+
+## Récapitulatif 
+- Se familiariser avec les tableaux en Java
+- Créer des algorithmes simples avec des tableaux

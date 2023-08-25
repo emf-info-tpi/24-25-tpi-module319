@@ -4,7 +4,7 @@
 Se familiariser avec les structures de boucles en Java.
 
 ## Travail à réaliser
-Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExerciceBoucles1, ExerciceBoucles2, etc…
+Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez `ExerciceBoucles1`, `ExerciceBoucles2`, etc…
 
 ## Exercices
 
@@ -67,3 +67,9 @@ Résultat désiré à la sortie (console) :
 >2<br>
 >1<br>
 >Décollage !!<br>
+
+## Récapitulatif 
+- Découvrir les boucles en Java
+- Créer des boucles de type for
+- Créer des boucles de type while
+- Créer des boucles de type do-while

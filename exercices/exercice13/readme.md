@@ -26,7 +26,7 @@ Dans cet exercice, le mot de passe ne peut contenir **<u>que 4 caractères et un
 
 Vous pouvez utiliser la méthode « boolean testPassword(String password) » qui testera le mot de passe pour vous et qui retournera un boolean indiquant si vous avez trouvé le bon mot de passe. 
 
-## Coder le ! 
+## Codez le ! 
 
 Cette fois-ci, le mot de passe contient **<u>5 caractères</u>**. Il peut contenir des chiffres et des lettres minuscules. Codez votre algorithme dans la méthode main en vous basant sur le code donné ci-dessous. 
 
@@ -71,4 +71,4 @@ Lorsque le programme trouve le mot de passe, il doit l’afficher sur la console
         return retour; 
 
     } 
-    ```
+```
