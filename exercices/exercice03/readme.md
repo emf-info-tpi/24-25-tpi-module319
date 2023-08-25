@@ -6,10 +6,11 @@ Expérimenter les types de base avec Java.
 
 ## Travail à réaliser
 
-- Pour commencer, créez un nouveau fichier Java que vous nommerez TypesDeBase et que vous devez créer dans le répertoire exercice04.
-- Déclarez la variable age pouvant contenir l'âge d'une personne (chiffre entier) avec le type approprié
-- Déclarez la variable nom pouvant contenir le prénom d'une personne
-- Affichez à la console la ligne suivante en utilisant vos variables :Je m’appelle XXX et j’ai YYY années. Le XXX et le YYY représente le contenu de vos variables.
+- Pour commencer, créez un nouveau fichier Java que vous nommerez `TypesDeBase` et que vous devez créer dans le répertoire `exercice03`.
+- Déclarez la variable `age` pouvant contenir l'âge d'une personne (chiffre entier) avec le type approprié
+- Déclarez la variable `nom` pouvant contenir le prénom d'une personne
+- Affichez à la console la ligne suivante en utilisant vos variables :
+>Je m’appelle XXX et j’ai YYY années. Le XXX et le YYY représente le contenu de vos variables.
 
 - Pour terminer, calculez et affichez l'âge qu'aura cette personne dans 10 ans.
 
