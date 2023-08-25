@@ -1,46 +1,113 @@
-# Exercice 10 : Les tableaux
+# Exercice 10 : Les méthodes
 
 ## Objectif
-Se familiariser avec les structures de tableaux en Java.
+Se familiariser avec les méthodes en Java.
 
 ## Travail à réaliser
-Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExerciceTableaux1, ExerciceTableaux2, etc…
+Pour chaque exercice, faites une nouvelle méthode qui sera appelée depuis votre main.
 
 ## Exercices
 
-### Exercice 1 : Creation de tableaux
-Déclarer puis créez un tableau d'`entier` et affichez le contenu de toutes les cellules. 
+### La méthode qui dit bonjour
+Déclarez une méthode `direBonjour` qui n'accepte aucun paramètre et qui ne retourne rien. Cette méthode va simplement afficher "Bonjour" à la console. 
 
-Déclarer et créez ensuite un tableau de `String`. Affichez également le contenu de toutes les cellules. 
+### La méthode qui dit n'importe quoi 
 
-Quelle différence constatez-vous entre les deux tableaux? 
+Déclarer une méthode `dire` qui accepte un paramètre de type `String` et qui l'affiche à la console. Cette méthode <u>ne retourne rien</u>. 
 
-### Exercice 2 : Le tableau de valeurs aléatoires 
-Ce programme va créer un tableau de 10 cellules contenant des valeurs aléatoires comprises entre 1 et 6 (utilisez des constantes!).  
+### Les méthodes de la classe Math 
 
-Affichez ensuite le contenu de ce tableau à la console.  
+Expérimentez et décrivez à quoi servent les méthodes suivantes de la classes `Math`. 
 
-Exemple du résultat désiré à la sortie (console) : 
+ - Min 
+ - Max 
+ - Pow 
+ - Sqrt 
+ - Abs 
+### La manipulation de tableaux avec les méthodes 
 
->Cellule 0 : 1 <br>
->Cellule 1 : 5 <br>
->Cellule 2 : 5 <br>
->Cellule 3 : 4 <br>
->Cellule 4 : 6 <br>
->Cellule 5 : 3 <br>
->Cellule 6 : 1 <br>
->Cellule 7 : 5 <br>
->Cellule 8 : 6 <br>
->Cellule 9 : 4 <br>
+Pour cette partie d'exercice, créez un nouveau projet que vous nommerez "ExercicesMethodesTableaux". 
 
-### Exercice 3 : La moyenne des notes 
-Reprenez le code de l'exercice précédent. Le tableau représente les notes pour une classe de 10 élèves. Calculez maintenant la moyenne de la classe. 
+Il s'agira ici d'implémenter une méthode pour chaque algorithme décrits ci-dessous: 
 
-### Exercice 4 : Les nombres suivants 
-Ecrire un algorithme qui, d’après un nombre de départ, crée un tableau contenant les 5 nombres suivants. Ce tableau est ensuite affiché.  
+1. Créer un tableau d'entiers d'un certain nombre de cellules.  
 
-Exemple du résultat désiré à la sortie avec le nombre de départ 17 (console) : 
+    -  La méthode prendra en paramètre la taille du tableau et retournera le nouveau tableau. 
 
->Cellule 0 : 18 <br>
->Cellule 1 : 19 <br>
->Cellule 2 : 20 <br>
+2. Remplir un tableau avec une valeur fixe.  
+
+    -  La méthode prendra en paramètre un tableau à remplir et la valeur fixe. Le tableau rempli sera ensuite retourné. 
+
+3. Remplir un tableau avec des valeurs aléatoires. 
+
+    - La méthode prendra en paramètre un tableau à remplir et retournera le tableau rempli. 
+
+4. Déterminer la taille d'un tableau 
+
+    - La méthode prendra en paramètre un tableau et retournera sa taille. 
+
+5. Afficher le contenu d'un tableau 
+
+    - La métode prendra en paramètre un tableau et ne retournera rien. 
+
+6. Rechercher la valeur minimum d'un tableau 
+
+    - La méthode prendra en paramètre un tableau et retournera le minimum. 
+
+7. Rechercher la valeur maximum d'un tableau 
+
+    - La méthode prendra en paramètre un tableau et retournera le maximum. 
+
+8. Compter la fréquence d'une valeur dans un tableau. 
+
+    - La méthode prendra en paramètre un tableau et une valeur. Elle retournera ensuite le nombre de fois qu'on a retrouvé cette valeur dans le tableau. 
+
+9. Etablir la somme des valeurs contenues dans un tableau. 
+
+    - La méthode prendra en paramètre un tableau et retournera la somme de ce tableau. 
+
+10. Etablir la moyenne des valeurs contenues dans un tableau. 
+
+    - La méthode prendra en paramètre un tableau et retournera la moyenne de ce tableau. 
+
+11. Remplacer une valeur par une autre dans un tableau 
+
+    - La méthode prendra en paramètre un tableau, une valeur à rechercher, et une valeur de remplacement. Elle retournera ensuite le tableau dans lequel les valeurs à rechercher ont été remplacées par la valeur de remplacement. 
+
+12. Rechercher la première occurrence d'une valeur dans un tableau 
+
+    - La méthode prendra en paramètre un tableau et une valeur à rechercher. Elle retournera ensuite la position dans le tableau de la cellule contenant, pour la première fois, la valeur à rechercher (ou -1 si la valeur n'a pas été trouvée). 
+
+13. Rechercher la dernière occurrence d'une valeur dans un tableau 
+
+    - La méthode prendra en paramètre un tableau et une valeur à rechercher. Elle retournera ensuite la position dans le tableau de la cellule contenant, pour la dernière fois, la valeur à rechercher (ou -1 si la valeur n'a pas été trouvée). 
+
+Testez ensuite ces méthodes depuis le main pour obtenir la sortie suivante à la console : 
+
+>Le tableau a une taille de 50 cellules. <br><br>
+>Contenu du tableau aléatoire : <br>
+>tab[0]=12 <br>
+>tab[1]=14 <br>
+>tab[2]=13 <br>
+>… <br>
+>tab[47]=5 <br>
+>tab[48]=9 <br>
+>tab[49]=20<br>
+>La valeur min trouvée = 1 <br>
+>La valeur max trouvée = 20 <br><br>
+>Après remplacement de la valeur 12 par la valeur 5 voici le contenu du >tableau : <br>
+>tab[0]=5  <br>
+>tab[1]=14 <br>
+>tab[2]=13 <br>
+>… <br>
+>tab[47]=5 <br>
+>tab[48]=9 <br>
+>tab[49]=20<br><br>
+>La somme des cellules du tableau = 494 <br>
+>La moyenne des cellules du tableau = 9.88 <br>
+>La valeur 13 a été trouvée à la 1ère position N°2 <br>
+>La valeur 13 a été trouvée à la dernière position N°28 <br>
+
+N.B. Le contenu affiché change chaque fois!
+
+<u>Pour terminer, documentez ces méthodes dans votre RP</u> (chapitre 3 : "Algorithmique de base – méthodes fréquemment utiles"). 

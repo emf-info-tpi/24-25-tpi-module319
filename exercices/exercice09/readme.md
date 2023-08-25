@@ -1,69 +1,46 @@
-# Exercice 9 : Les boucles
+# Exercice 9 : Les tableaux
 
 ## Objectif
-Se familiariser avec les structures de boucles en Java.
+Se familiariser avec les structures de tableaux en Java.
 
 ## Travail à réaliser
-Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExerciceBoucles1, ExerciceBoucles2, etc…
+Pour chaque exercice, créez un nouveau projet dans VSCode en choisissant `"No build tools"` que vous nommerez ExerciceTableaux1, ExerciceTableaux2, etc…
 
 ## Exercices
 
-### Exercice 1 : Comptage
-Ce programme affichera les chiffres de 1 à 5 sur la console de trois manières différentes: avec une boucle `for`, avec une boucle `while` et avec une boucle `do-while`. <br>
-<br>
-Résultat désiré à la sortie (console) :
->Boucle for, itération 1<br>
->Boucle for, itération 2<br>
->Boucle for, itération 3<br>
->Boucle for, itération 4<br>
->Boucle for, itération 5<br><br>
->Boucle while, itération 1<br>
->Boucle while, itération 2<br>
->Boucle while, itération 3<br>
->Boucle while, itération 4<br>
->Boucle while, itération 5<br><br>
->Boucle do-while, itération 1<br>
->Boucle do-while, itération 2<br>
->Boucle do-while, itération 3<br>
->Boucle do-while, itération 4<br>
->Boucle do-while, itération 5<br>
+### Exercice 1 : Creation de tableaux
+Déclarer puis créez un tableau d'`entier` et affichez le contenu de toutes les cellules. 
 
-Copiez ensuite le code de votre boucle for et, sans changez la condition de sortie de votre boucle, sautez l'exécution de l'itération 3. <br><br>
-Résultat désiré à la sortie (console) :
+Déclarer et créez ensuite un tableau de `String`. Affichez également le contenu de toutes les cellules. 
 
->Boucle for, itération 1<br>
->Boucle for, itération 2<br>
->Boucle for, itération 4<br>
->Boucle for, itération 5<br>
+Quelle différence constatez-vous entre les deux tableaux? 
 
-Pour terminer, copiez ensuite le code de votre boucle while et, sans changez la condition de sortie de votre boucle, stoppez l'exécution de la boucle après l'itération 3. <br><br>
-Résultat désiré à la sortie (console) :
+### Exercice 2 : Le tableau de valeurs aléatoires 
+Ce programme va créer un tableau de 10 cellules contenant des valeurs aléatoires comprises entre 1 et 6 (utilisez des constantes!).  
 
->Boucle while, itération 1<br>
->Boucle while, itération 2<br>
->Boucle while, itération 3<br>
+Affichez ensuite le contenu de ce tableau à la console.  
 
-### Exercice 2 : Décollage
-Ce programme affichera les chiffres de 5 à 1 sur la console de trois manières différentes: avec une boucle for, avec une boucle while et avec une boucle do-while. <br><br>
-Résultat désiré à la sortie (console) :
->Boucle for:<br>
->5<br>
->4<br>
->3<br>
->2<br>
->1<br>
->Décollage !!<br><br>
->Boucle while:<br>
->5<br>
->4<br>
->3<br>
->2<br>
->1<br>
->Décollage !!<br><br>
->Boucle do-while:<br>
->5<br>
->4<br>
->3<br>
->2<br>
->1<br>
->Décollage !!<br>
+Exemple du résultat désiré à la sortie (console) : 
+
+>Cellule 0 : 1 <br>
+>Cellule 1 : 5 <br>
+>Cellule 2 : 5 <br>
+>Cellule 3 : 4 <br>
+>Cellule 4 : 6 <br>
+>Cellule 5 : 3 <br>
+>Cellule 6 : 1 <br>
+>Cellule 7 : 5 <br>
+>Cellule 8 : 6 <br>
+>Cellule 9 : 4 <br>
+
+### Exercice 3 : La moyenne des notes 
+Reprenez le code de l'exercice précédent. Le tableau représente les notes pour une classe de 10 élèves. Calculez maintenant la moyenne de la classe. 
+
+### Exercice 4 : Les nombres suivants 
+Ecrire un algorithme qui, d’après un nombre de départ, crée un tableau contenant les 5 nombres suivants. Ce tableau est ensuite affiché.  
+
+Exemple du résultat désiré à la sortie avec le nombre de départ 17 (console) : 
+
+>Cellule 0 : 18 <br>
+>Cellule 1 : 19 <br>
+>Cellule 2 : 20 <br>

@@ -1,34 +1,52 @@
-# Exercice 5 : l'échange des valeurs
+# Exercice 5 : les conditions
 
 ## Objectif
 
-- Revoir les notions de déclaration et affectation de variables.
-- Implémenter un premier algorithme.
+- Se familiariser avec les structures de conditions en Java.
 
 ## Travail à réaliser
 
+Pour  chaque  exercice,  créez  un  nouveau  fichier  dans  le dossier exercice06 de VSCode  que  vous  nommerez ExerciceCondition1,.java, ExerciceCondition2, etc...
 
-Il  s'agit  d'un  classique en  matière  d'algorithmique, on  désire  un  programme  qui  déclare  deux  variables, y affecte deux valeurs différentes et ensuite échange ces valeurs.
 
-Pour cela, on va utiliser deux variables nommées variable1 et variable2 dont voici le contenu:
-- Situation de départ :
-```
-variable1=1;
-variable2=2;
-```
+### Exercice condition 1 : 
 
-- Situation après le traitement :
-```
-variable1=2;
-variable2=1;
-```
+Positive ou négative ? 
+Ce programme va déterminer si une valeur contenue dans une variable entière est positive ou négative. Pour cela : 
+- Déclarez la variable nommée valeurATester de type int
+- Affectez une valeur à cette variable
+- Tester si la valeur est positive ou négative
+- Dans le cas où la valeur est positive, vous afficherez "La valeur est positive"
+- Dans le cas contraire, vous afficherez "La valeur est négative"
 
-Voici la sortie désirée :
+### Exercice condition 2 : 
 
-```
-Le contenu de la variable1 est : 1.
-Le contenu de la variable2 est : 2.
-.... Traitement ....
-Le contenu de la variable1 est : 2.
-Le contenu de la variable2 est : 1.
-```
+Ce programme va déterminer si une valeur contenue dans une variable entière est paire ou impaire. Pour cela :
+- Déclarez la variable nommée valeurATesterde type int
+- Affectez une valeur à cette variable
+- Tester si la valeur est paire ou impaire
+- Dans le cas où la valeur est paire, vous afficherez "La valeur est paire"
+- Dans le cas contraire, vous afficherez "La valeur est impaire"
+
+### Exercice condition 3 : 
+Ce programme va indiquer si le résultat d'une multiplication entre deux variables sera positif ou négatif sans effectuer la multiplication. Pour cela : 
+- Déclarez la variable nommée valeur1 de type int
+- Déclarez la variable nommée valeur2 de type int
+- Affectez la valeur de votre choix aux variables valeur1 et valeur2.
+- Dans le cas où le résultat sera positif, vous afficherez "Le résultat est positif".
+- Dans le cas contraire, vous afficherez "Le résultat est négatif".
+- Testez avec d’autres valeurs pour les variable valeur1 et valeur2.
+
+### Exercice condition 4 : 
+Ce programme va indiquer, en fonction d'une température, s'il fait froid où chaud.
+- Déclarez la variable nommée temperaturede type int
+- Si la température est inférieure à -10, vous afficherez "Il fait très froid".
+- Si la température est entre -10 (y compris) et 0 (non compris), vous afficherez "Il fait froid".
+- Si la température est entre 0 (y compris) et 25 (non compris), vous afficherez "Il fait normal".
+- Si la température est entre 25 (y compris) et 35, vous afficherez "Il fait chaud".
+- Si la température est supérieure à 35, vous afficherez "Il fait très chaud".
+
+### Structogramme 
+Représentez un des exercices ci-dessus sous la forme d'un structogramme. 
+Pour rappel, les structogrammes sont une manière de représenter graphiquement le déroulement d'un programme. 
+Le programme "Strutorizer", qui permet de réaliser des structogrammes, est disponible ici: S:\EMF\ProgramSources\EMF-Informatique\Structorizer
