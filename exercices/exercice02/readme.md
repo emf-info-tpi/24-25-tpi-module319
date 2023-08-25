@@ -11,7 +11,7 @@ Pour démarrer avec un nouvel exercice, réalisez les 2 étapes suivantes:
 - Sélectionnez le sous-dossier correspondant à votre exercice (ici exercice02), faites un "File" -> "New File" -> "Exercice02.java"
 
 Vous devriez retrouver le code suivant dans votre fichier Java :
-```
+```java
 package exercices.exercice02;
 
 public class Exercice02 {
