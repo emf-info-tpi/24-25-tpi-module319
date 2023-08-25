@@ -23,9 +23,7 @@ _Remplacez par votre propre nom et prénom bien entendu_
 >Mon âge est de : xx ans
 _xx étant le contenu de la variable monAge_
 
-7. Affichez : 
->Je suis majeur <br>
->Je ne suis pas encore majeur <br>
+7. Affichez "Je suis majeur" ou "Je ne suis pas encore majeur" 
 _en fonction du contenu de votre variable `estMajeur`_
 _Trouvez comment faire une chose ou une autre, en fonction du contenu d’une variable qu’il vous faut tester. Indice : similaire au pt. 4_
 8. Executez votre programme pas par pas et vérifiez qu’il fait bien exactement ce qui précède. Si ce n’est pas le cas, trouvez l’erreur et corrigez-là.
