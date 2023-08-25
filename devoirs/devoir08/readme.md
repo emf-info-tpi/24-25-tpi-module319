@@ -21,13 +21,13 @@ On vous demande d'implémenter un programme qui génère des mots de passe aléa
   * Affichage du mot de passe généré par l'appel précédent à la méthodegenereMotDePasse.
 
 ## Exemple de sortie
-```
-jdaegdgefgbhjjd 
-cifheedfhhiidhf 
-jcbjceggchagahi 
-gcjidjjgifejbei 
-dcaeaafefbbgjbg 
-```
+
+>jdaegdgefgbhjjd <br>
+>cifheedfhhiidhf <br>
+>jcbjceggchagahi <br>
+>gcjidjjgifejbei <br>
+>dcaeaafefbbgjbg <br>
+
 
 ## Restitution du devoir
 Faites un commit/push avant la date limite fixée par votre enseignant.

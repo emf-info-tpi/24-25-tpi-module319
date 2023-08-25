@@ -19,4 +19,3 @@ Expérimenter les types de base avec Java.
 - Créer des variables de différents types en Java
 - Faire des calculs simples avec des variables
 - Afficher des informations et la valeurs de variables sur la console
-

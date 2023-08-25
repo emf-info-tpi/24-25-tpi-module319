@@ -14,15 +14,15 @@ On vous demande d'implémenter un programme qui génère des grilles de loto. Vo
 - Pour  effectuer  vos  tests,  vous  pouvez  changer  les  valeurs  des  constantes  MIN/ MAX (par  exemple  avec les valeurs 0 et 10) afin de vous assurer que le tirage ne contient pas de doublon (deux fois la même valeur).
 
 ## Exemple de sortie
-```
-Tirage du loto :
-27
-6
-42
-24
-40
-8 
-```
+
+>Tirage du loto :<br>
+>27<br>
+>6<br>
+>42<br>
+>24<br>
+>40<br>
+>8 <br>
+
 
 ## Restitution du devoir
 Faites un commit/push avant la date limite fixée par votre enseignant.

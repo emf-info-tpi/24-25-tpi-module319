@@ -113,7 +113,7 @@ N.B. Le contenu affiché change chaque fois!
 
 <u>Pour terminer, documentez ces méthodes dans votre RP</u> (chapitre 3 : "Algorithmique de base – méthodes fréquemment utiles"). 
 
-## Récapitulatif 
+## Récapitulatif
 - Découvrir les méthodes en Java
 - Créer et implémenter des méthodes simple en Java
 - Appeler des méthodes en Java et au besoin, reprendre la valeur de retour

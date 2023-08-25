@@ -44,6 +44,6 @@ Résultat désiré à la sortie (console) :
 
 >La chaîne de caractère "Nicolas" ne contient pas le texte "test". 
 
-## Récapitulatif 
+## Récapitulatif
 - Comprendre le type String (qui n'est pas un type de base!)
 - Découvrir les méthodes fournies par la classe String

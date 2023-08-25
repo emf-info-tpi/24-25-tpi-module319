@@ -28,4 +28,3 @@ Pour cela, on va utiliser deux variables nommées `variable1` et `variable2` don
 >.... Traitement .... <br>
 >Le contenu de la variable1 est : 2. <br>
 >Le contenu de la variable2 est : 1. <br>
-

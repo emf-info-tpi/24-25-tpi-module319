@@ -51,7 +51,6 @@ Représentez un des exercices ci-dessus sous la forme d'un structogramme.
 Pour rappel, les structogrammes sont une manière de représenter graphiquement le déroulement d'un programme. 
 Le programme "Strutorizer", qui permet de réaliser des structogrammes, est disponible ici: S:\EMF\ProgramSources\EMF-Informatique\Structorizer
 
-
 ## Récapitulatif 
 - Créer des variables de différents types en Java
 - Tester des valeurs avec des conditions en Java

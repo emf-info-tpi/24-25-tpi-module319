@@ -22,56 +22,56 @@ Consignes :
 
   ## Exemple d'affichage souhaité
 Quand le nombre est trouvé (c’est le hasard qui décide)
-```
-  Tableau[0] = [31]
-  Tableau[1] = [3]
-  Tableau[2] = [38]
-  Tableau[3] = [21]
-  Tableau[4] = [44]
-  Tableau[5] = [19]
-  Tableau[6] = [17]
-  Tableau[7] = [10]
-  Tableau[8] = [14]
-  Tableau[9] = [25]
-  Tableau[10] = [16]
-  Tableau[11] = [44]
-  Tableau[12] = [9]
-  Tableau[13] = [14]
-  Tableau[14] = [35]
-  Tableau[15] = [7]
-  Tableau[16] = [38]
-  Tableau[17] = [27]
-  Tableau[18] = [22]
-  Tableau[19] = [5]
-  La plus petite valeur trouvée est : 3
-  La plus grande valeur trouvée est : 44
-  Le nombre [7] figure à la position [15] du tableau
-```
+
+>Tableau[0] = [31] <br>
+>Tableau[1] = [3]<br>
+>Tableau[2] = [38]<br>
+>Tableau[3] = [21]<br>
+>Tableau[4] = [44]<br>
+>Tableau[5] = [19]<br>
+>Tableau[6] = [17]<br>
+>Tableau[7] = [10]<br>
+>Tableau[8] = [14]<br>
+>Tableau[9] = [25]<br>
+>Tableau[10] = [16]<br>
+>Tableau[11] = [44]<br>
+>Tableau[12] = [9]<br>
+>Tableau[13] = [14]<br>
+>Tableau[14] = [35]<br>
+>Tableau[15] = [7]<br>
+>Tableau[16] = [38]<br>
+>Tableau[17] = [27]<br>
+>Tableau[18] = [22]<br>
+>Tableau[19] = [5]<br>
+>La plus petite valeur trouvée est : 3<br>
+>La plus grande valeur trouvée est : 44<br>
+>Le nombre [7] figure à la position [15] du tableau<br>
+
 Quand le nombre n’est pas trouvé (c’est le hasard qui décide) 
-```
-Tableau[0] = [40]
-Tableau[1] = [25]
-Tableau[2] = [23]
-Tableau[3] = [49]
-Tableau[4] = [31]
-Tableau[5] = [16]
-Tableau[6] = [29]
-Tableau[7] = [16]
-Tableau[8] = [8]
-Tableau[9] = [27]
-Tableau[10] = [8]
-Tableau[11] = [20]
-Tableau[12] = [47]
-Tableau[13] = [39]
-Tableau[14] = [22]
-Tableau[15] = [2]
-Tableau[16] = [10]
-Tableau[17] = [12]
-Tableau[18] = [21]
-Tableau[19] = [30]
-La plus petite valeur trouvée est : 2
-La plus grande valeur trouvée est : 49
-Le nombre [7] est à la position [-1] du tableau
-```
+
+>Tableau[0] = [40]<br>
+>Tableau[1] = [25]<br>
+>Tableau[2] = [23]<br>
+>Tableau[3] = [49]<br>
+>Tableau[4] = [31]<br>
+>Tableau[5] = [16]<br>
+>Tableau[6] = [29]<br>
+>Tableau[7] = [16]<br>
+>Tableau[8] = [8]<br>
+>Tableau[9] = [27]<br>
+>Tableau[10] = [8]<br>
+>Tableau[11] = [20]<br>
+>Tableau[12] = [47]<br>
+>Tableau[13] = [39]<br>
+>Tableau[14] = [22]<br>
+>Tableau[15] = [2]<br>
+>Tableau[16] = [10]<br>
+>Tableau[17] = [12]<br>
+>Tableau[18] = [21]<br>
+>Tableau[19] = [30]<br>
+>La plus petite valeur trouvée est : 2<br>
+>La plus grande valeur trouvée est : 49<br>
+>Le nombre [7] est à la position [-1] du tableau<br>
+
 ## Restitution du devoir
 Faites un commit/push avant la date limite fixée par votre enseignant.

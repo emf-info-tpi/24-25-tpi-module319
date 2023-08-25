@@ -29,9 +29,9 @@ Faites un nouveau programme Java nommé MonteCarloPI dans le dossier devoir10.
 
 
 ## Exemple de sortie
-```
-pi =~ 3.14668
-```
+
+>pi =~ 3.14668
+
 N’utilisez que des instructions « if », « for » et « sout », ainsi que des variables et expressions pour résoudre cet exercice !
 
 ## Restitution du devoir

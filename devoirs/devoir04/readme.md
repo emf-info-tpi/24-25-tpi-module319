@@ -11,15 +11,15 @@ Révision des concepts vus en classe et identification des sujets pas compris. R
   * afficher une date plus lisible pour l’utilisateur (le mois en texte)
 N’utilisez que des instructions « if », « else », « switch », « case », « default », « break », « sout » et variables et expressions pour résoudre cet exercice !
 
-** Limites prescrites pour la date **
-* L’année doit être entre 0 et 9999 compris
-* Le mois doit être un mois valable
-* Le jour doit être un jour valable (pensez aux mois qui ont 31 jours, ceux à 30 jours et ceux à 28 ou 29 jours !)
+* Limites prescrites pour la date
+  * L’année doit être entre 0 et 9999 compris
+  * Le mois doit être un mois valable
+  * Le jour doit être un jour valable (pensez aux mois qui ont 31 jours, ceux à 30 jours et ceux à 28 ou 29 jours !)
 
   ## Exemple d'affichage souhaité
 ```
-    date entrée est le 12.9.2014
-    La date formatée est le 12 septembre 2014
+  date entrée est le 12.9.2014
+  La date formatée est le 12 septembre 2014
 ```
 ```
 La date entrée est le 12.9.-400

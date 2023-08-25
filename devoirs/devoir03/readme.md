@@ -15,7 +15,6 @@ N’utilisez que des instructions « if », « else », « switch », « case »
   * Le jour doit être un jour valable (pensez aux mois qui ont 31 jours, ceux à 30 jours et ceux à 28 ou 29 jours !)
 
   ## Exemple d'affichage souhaité
-
 >Le 31/12/2017 est le jour 365 de l'An. <br>
 >Le 1/1/2017 est le jour 1 de l'An.<br>
 >Le 26/10/2017 est le jour 299 de l'An.<br>

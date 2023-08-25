@@ -33,7 +33,7 @@ Exemple du résultat désiré à la sortie (console) :
 >Cellule 8 : 6 <br>
 >Cellule 9 : 4 <br>
 
-### Exercice 3 : La moyenne des notes 
+### Exercice 3 : La moyenne des notes
 Reprenez le code de l'exercice précédent. Le tableau représente les notes pour une classe de 10 élèves. Calculez maintenant la moyenne de la classe. 
 
 ### Exercice 4 : Les nombres suivants 

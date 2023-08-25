@@ -1,6 +1,6 @@
 # Devoir05 – Devinez LE nombre
 ## Objectifs
-Réviser les concepts vus en classe et identification des sujets pas compris. Réflexion algorithmique et mise en pratique des tests, expressions, variables, boucles.
+Réviser les concepts vus en classe et identification des sujets pas compris. Réflexion algorithmique et mise en pratique des tests, expressions, variables, boucles. 
 
 ## Travail à réaliser
 Faites un nouveau programme Java dans le dossier `devoir05` nommé `devoir05`.

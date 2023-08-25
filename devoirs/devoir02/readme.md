@@ -19,8 +19,7 @@ Indication : pour la boucle, vous devez itérer tant que la somme `reservoirA` +
 
 ![reservoirs](https://github.com/emf-info-319/module319/assets/125544717/419fd081-3018-4399-90c1-4a3372b6055c)
 
-
-  ## Exemple d'affichage souhaité
+## Exemple d'affichage souhaité
 >Il y a 5 litres à remplir. <br>
 >Remplissage du réservoir A... <br>
 >Le réservoir A : 1, le réservoir B : 0 <br>

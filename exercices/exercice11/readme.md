@@ -56,6 +56,6 @@ La sortie désirée à la console est la suivante :
 >Tableau final [0] = 5  <br>
 >Tableau final [0] = 12 <br>
 
-## Récapitulatif 
+## Récapitulatif
 - Se familiariser avec les tableaux en Java
 - Créer des algorithmes simples avec des tableaux
