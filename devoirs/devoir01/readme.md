@@ -8,7 +8,7 @@
 ## Travail à réaliser
 1. Faites un nouveau programme Java dans le dossier `devoir01` nommé `devoir01`.
 2. Dans le `main()` de votre programme, déclarez -une variable `monAge` et donnez-lui une valeur. 
-_On quel type doit-t-elle être cette variable ?_
+_De quel type doit-t-elle être cette variable ?_
 _On modifiera plus tard la valeur de cette variable pour tester si le programme fonctionne comme il doit._
 3. Déclarez une variable `estMajeur`
 _De quel type doit-t-elle être cette variable ?_
