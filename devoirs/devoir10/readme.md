@@ -10,6 +10,8 @@ L’idée est la suivante : on génère aléatoirement des points (c’est-à-di
 
 Il  suffit  ensuite  de  vérifier  si  le  point  aléatoirement  généré  est  dans  le  quart  de  cercle  ou  pas  (en  calculant  l’hypoténuse et en vérifiant si celle-ci est ≤ 1). On va simplement compter le nombre de points qui seront dans la « zone verte ».
 
+![image](pi.png)
+
 Du  coup,  avec  cette  méthode  géniale,  en  générant  suffisamment  de  points  aléatoires,  on  peut  estimer  le  nombre π de manière simple : le rapport du nombre de points dans la zone verte et le nombre total de points générés aura la même valeur que le rapport des surfaces verte et rouge et vaudra π/4.:
 
 ![image](https://github.com/emf-info-319/module319/assets/48353440/48f46af9-7ef7-47aa-a5aa-d2bc40f1b4ab)
