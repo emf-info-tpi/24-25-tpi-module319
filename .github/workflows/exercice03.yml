@@ -19,14 +19,13 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Compiler et tester uniquement Exercice03
-        run: mvn -Dtest=exercices.Exercice03Test test
-
       - name: Télécharger CheckStyle
         run: |
           curl -LJO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar
 
       - name: Vérifier les conventions EMF (CheckStyle)
         run: |
-          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice03/*.java || true
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice03/*.java
 
+      - name: Compiler et tester uniquement Exercice03
+        run: mvn -Dtest=exercices.Exercice03Test test

@@ -1,6 +1,6 @@
 package exercices.exercice03;
 
-public class TypesDeBase {
+public class typesDeBase {
     public static void main(String[] args) {
         int age = 17;
         String nom = "John";
