@@ -1,6 +1,6 @@
 package exercices.exercice04;
 
-public class echangeValeurs {
+public class EchangeValeurs {
     public static void main(String[] args) {
         int Variable1 = 1;
         int Variable2 = 2;
