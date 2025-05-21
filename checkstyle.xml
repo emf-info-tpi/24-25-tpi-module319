@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+          "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+
+    <module name="TreeWalker">
+
+        <module name="TypeName">
+            <message key="name.invalidPattern"
+                     value="❌ Le nom de la classe ''{0}'' doit commencer par une majuscule."/>
+        </module>
+
+        <module name="LocalVariableName">
+            <message key="name.invalidPattern"
+                     value="❌ Le nom de la variable locale ''{0}'' doit être en CamelCase."/>
+        </module>
+
+        <module name="ConstantName">
+            <message key="name.invalidPattern"
+                     value="❌ Le nom de la constante ''{0}'' doit être en MAJUSCULES."/>
+        </module>
+
+    </module>
+
+</module>
