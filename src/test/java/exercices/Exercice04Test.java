@@ -30,9 +30,9 @@ public class Exercice04Test {
                 if (l.contains("int variable1") && l.contains("= 1")) variable1Valide = true;
                 if (l.contains("int variable2") && l.contains("= 2")) variable2Valide = true;
                 if (l.contains("variable1 = variable2") || l.contains("variable2 = variable1")) logiqueEchangePresente = true;
-                if (l.contains("System.out.println") && l.contains("variable1") && l.contains("1")) contientAffichageDebut = true;
+                if (l.contains("System.out.println") && l.contains("variable1")) contientAffichageDebut = true;
                 if (l.contains("Traitement")) contientTraitement = true;
-                if (l.contains("System.out.println") && l.contains("variable1") && l.contains("2")) contientAffichageFin = true;
+                if (l.contains("System.out.println") && l.contains("variable2")) contientAffichageFin = true;
             }
         } catch (Exception e) {
             fail("❌ Erreur lors de la lecture du fichier EchangeValeurs.java : " + e.getMessage());
