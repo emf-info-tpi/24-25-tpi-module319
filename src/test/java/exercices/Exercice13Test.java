@@ -9,7 +9,7 @@ public class Exercice13Test {
 
     @Test
     public void testFichierPresentEtBienNomme() {
-        File fichier = new File("exercices/exercice13/Exercice13.java");
-        assertTrue(fichier.exists(), "❌ Le fichier 'Exercice13.java' est manquant dans le dossier 'exercice13'.");
+        File fichier = new File("exercices/exercice13/BruteForce.java");
+        assertTrue(fichier.exists(), "❌ Le fichier 'BruteForce.java' est manquant dans le dossier 'exercice13'.");
     }
 }

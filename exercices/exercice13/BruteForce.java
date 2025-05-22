@@ -2,7 +2,7 @@ package exercices.exercice13;
 
 import java.util.Base64;
 
-public class bruteForce {
+public class BruteForce {
     public static final String PASSWORD = "YnJhdjA";
 
     public static final char[] CHARACTERS = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b',
