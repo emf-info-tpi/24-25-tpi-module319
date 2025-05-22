@@ -25,7 +25,11 @@ jobs:
 
       - name: Vérifier les conventions EMF (CheckStyle) ExerciceBoucle1
         run: |
-          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice08/*.java || true
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice08/ExerciceBoucles1/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceBoucle2
+        run: |
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice08/ExerciceBoucles2/src/*.java || true
 
       - name: Lancer uniquement le test Exercice08
         run: mvn -Dtest=exercices.Exercice08Test test
