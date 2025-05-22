@@ -12,7 +12,7 @@ public class Exercice01Test {
     @Test
     public void testFichierEtCommentaire() {
         File fichier = new File("exercices/exercice01/Exercice01.java");
-        assertTrue(fichier.exists(), "❌ Le fichier Exercice01.java n’a pas été trouvé dans le dossier exercice01.");
+        assertTrue(fichier.exists(), "❌ Le fichier Exercice01.java n'a pas été trouvé dans le dossier exercice01.");
 
         boolean commentaireTrouve = false;
 

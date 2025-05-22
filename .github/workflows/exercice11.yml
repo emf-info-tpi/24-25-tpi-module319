@@ -1,9 +1,9 @@
-name: Vérification Exercice 06
+name: Vérification Exercice 11
 
 on:
   push:
     paths:
-      - 'exercices/exercice06/**'
+      - 'exercices/exercice11/**'
 
 jobs:
   exercice01:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Vérifier les conventions EMF (CheckStyle)
         run: |
-          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice06/*.java || true
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice11/*.java || true
 
-      - name: Lancer uniquement le test Exercice06
-        run: mvn -Dtest=exercices.Exercice06Test test
+      - name: Lancer uniquement le test Exercice11
+        run: mvn -Dtest=exercices.Exercice11Test test

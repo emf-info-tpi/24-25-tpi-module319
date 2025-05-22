@@ -13,7 +13,7 @@ public class Exercice04Test {
     @Test
     public void verifierContenuDuCode() {
         File fichier = new File("exercices/exercice04/EchangeValeurs.java");
-        assertTrue(fichier.exists(), "❌ Le fichier EchangeValeurs.java est introuvable dans exercice04.");
+        assertTrue(fichier.exists(), "❌ Le fichier EchangeValeurs.java n'a pas été trouvé dans le dossier exercice04.");
 
         boolean variable1Valide = false;
         boolean variable2Valide = false;

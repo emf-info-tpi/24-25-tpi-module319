@@ -13,7 +13,7 @@ public class Exercice03Test {
     @Test
     public void verifierContenuFichier() {
         File fichier = new File("exercices/exercice03/TypesDeBase.java");
-        assertTrue(fichier.exists(), "❌ Le fichier TypesDeBase.java n'a pas été trouvé dans exercice03.");
+        assertTrue(fichier.exists(), "❌ Le fichier TypesDeBase.java n'a pas été trouvé dans le dossier exercice03.");
 
         boolean contientVariableAge = false;
         boolean contientVariableNom = false;

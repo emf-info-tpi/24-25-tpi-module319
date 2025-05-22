@@ -1,4 +1,4 @@
-public class App {
+public class app {
     public static final int MIN = 0;
     public static final int MAX = 100;
 

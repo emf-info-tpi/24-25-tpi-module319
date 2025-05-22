@@ -14,7 +14,7 @@ public class Exercice02Test {
     public void verifierContenuFichier() {
         File fichier = new File("exercices/exercice02/Exercice02.java");
 
-        assertTrue(fichier.exists(), "❌ Le fichier Exercice02.java est introuvable dans le dossier exercice02.");
+        assertTrue(fichier.exists(), "❌ Le fichier Exercice02.java n'a pas été trouvé dans le dossier exercice02.");
 
         boolean ligneCorrecteTrouvee = false;
 

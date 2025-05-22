@@ -1,4 +1,4 @@
-public class App {
+public class app {
     public static void main(String[] args) throws Exception {
         String maChaineDeCaractere = "Voici du contenu stocké dans un String.";
 

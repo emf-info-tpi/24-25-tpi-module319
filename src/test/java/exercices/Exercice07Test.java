@@ -11,7 +11,7 @@ public class Exercice07Test {
         String[] noms = {"operateurCalcul.java", "operateurAffectation.java", "operateurLogique.java"};
         for (String nom : noms) {
             File f = new File("exercices/exercice07/" + nom);
-            assertTrue(f.exists(), "❌ Le fichier " + nom + " est attendu mais introuvable.");
+            assertTrue(f.exists(), "❌ Le fichier " + nom + " n'a pas été trouvé dans le dossier 'exercice07'.");
         }
     }
 }

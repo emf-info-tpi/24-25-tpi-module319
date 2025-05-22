@@ -1,4 +1,4 @@
-public class App {
+public class app {
     public static void main(String[] args) throws Exception {
         int nombreDepart = 17;
         int[] nombresSuivants = new int[5];

@@ -9,8 +9,8 @@ public class Exercice08Test {
     @Test
     public void testDossiersBoucles() {
         assertTrue(new File("exercices/exercice08/ExerciceBoucle1/src/App.java").exists(),
-            "❌ App.java manquant dans ExerciceBoucle1");
+            "❌ App.java n'a pas été trouvé dans le dossier ExerciceBoucle1");
         assertTrue(new File("exercices/exercice08/ExerciceBoucle2/src/App.java").exists(),
-            "❌ App.java manquant dans ExerciceBoucle2");
+            "❌ App.java n'a pas été trouvé dans le dossier ExerciceBoucle2");
     }
 }

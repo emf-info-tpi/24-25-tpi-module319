@@ -9,6 +9,6 @@ public class Exercice11Test {
     @Test
     public void testFichierInversion() {
         assertTrue(new File("exercices/exercice11/ExercicesInversionTableaux/src/App.java").exists(),
-            "❌ App.java manquant dans ExercicesInversionTableaux");
+            "❌ App.java n'a pas été trouvé dans le dossier ExercicesInversionTableaux");
     }
 }

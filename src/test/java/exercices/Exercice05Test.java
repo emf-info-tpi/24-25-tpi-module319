@@ -16,7 +16,7 @@ public class Exercice05Test {
 
         for (String fichier : fichiers) {
             File f = new File("exercices/exercice05/" + fichier);
-            assertTrue(f.exists(), "❌ Le fichier " + fichier + " est manquant.");
+            assertTrue(f.exists(), "❌ Le fichier " + fichier + " n'a pas été trouvé dans le dossier 'exercice05'.");
         }
     }
 }
