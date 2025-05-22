@@ -1,12 +1,12 @@
-name: Vérification Exercice 03
+name: Vérification Exercice 05
 
 on:
   push:
     paths:
-      - 'exercices/exercice03/**'
+      - 'exercices/exercice05/**'
 
 jobs:
-  exercice03:
+  exercice01:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Vérifier les conventions EMF (CheckStyle)
         run: |
-          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice03/*.java
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice05/*.java
 
-      - name: Lancer uniquement le test Exercice03
-        run: mvn -Dtest=exercices.Exercice03Test test
+      - name: Lancer uniquement le test Exercice05
+        run: mvn -Dtest=exercices.Exercice05Test test
