@@ -23,9 +23,21 @@ jobs:
         run: |
           curl -LJO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar
 
-      - name: Vérifier les conventions EMF (CheckStyle)
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux1
         run: |
-          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/*.java || true
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux1/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux2
+        run: |
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux2/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux3
+        run: |
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux3/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux4
+        run: |
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux4/src/*.java || true
 
       - name: Lancer uniquement le test Exercice09
         run: mvn -Dtest=exercices.Exercice09Test test
