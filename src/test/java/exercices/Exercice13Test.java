@@ -5,7 +5,7 @@ import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Exercice13StructureTest {
+public class Exercice13Test {
 
     @Test
     public void testFichierPresentEtBienNomme() {
