@@ -6,7 +6,7 @@ on: [push]
     #  - 'exercices/exercice08/**'
 
 jobs:
-  exercice01:
+  exercice08:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,7 +26,7 @@ jobs:
       - name: Vérifier les conventions EMF (CheckStyle) ExerciceBoucle1
         run: |
           java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice08/ExerciceBoucle1/src/App.java || true
-          
+
       - name: Vérifier les conventions EMF (CheckStyle) ExerciceBoucle2
         run: |
           java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice08/ExerciceBoucle2/src/App.java || true

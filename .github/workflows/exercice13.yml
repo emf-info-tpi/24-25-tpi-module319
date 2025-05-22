@@ -6,7 +6,7 @@ on: [push]
     #  - 'exercices/exercice13/**'
 
 jobs:
-  exercice01:
+  exercice13:
     runs-on: ubuntu-latest
 
     steps:
