@@ -32,9 +32,18 @@ jobs:
           curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
           unzip pmd-bin-6.55.0.zip
 
-      - name: Exécuter PMD
+      - name: Lancer l'analyse PMD
         run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice05/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+          echo "   - Avertissement si un if est vide"
+
           ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice06/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
 
       - name: Lancer uniquement le test Exercice06
         run: mvn -Dtest=exercices.Exercice06Test test

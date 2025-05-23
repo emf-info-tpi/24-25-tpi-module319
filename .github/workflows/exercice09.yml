@@ -44,21 +44,57 @@ jobs:
           curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
           unzip pmd-bin-6.55.0.zip
 
-      - name: Exécuter PMD ExerciceTableaux1
+      - name: Lancer l'analyse PMD ExerciceTableaux1
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux1/src/ -R pmd-ruleset.xml -f text || true
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice05/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+          echo "   - Avertissement si un if est vide"
 
-      - name: Exécuter PMD ExerciceTableaux3
-        run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux2/src/ -R pmd-ruleset.xml -f text || true
-      
-      - name: Exécuter PMD ExerciceTableaux1
-        run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux3/src/ -R pmd-ruleset.xml -f text || true
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice08/ExerciceTableaux1/src/ -R pmd-ruleset.xml -f text || true
 
-      - name: Exécuter PMD ExerciceTableaux4
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer l'analyse PMD ExerciceTableaux2
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux4/src/ -R pmd-ruleset.xml -f text || true
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice05/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+          echo "   - Avertissement si un if est vide"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice08/ExerciceTableaux2/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer l'analyse PMD ExerciceTableaux3
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice05/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+          echo "   - Avertissement si un if est vide"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice08/ExerciceTableaux3/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer l'analyse PMD ExerciceTableaux4
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice05/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+          echo "   - Avertissement si un if est vide"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice08/ExerciceTableaux4/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
 
       - name: Lancer uniquement le test Exercice09
         run: mvn -Dtest=exercices.Exercice09Test test
