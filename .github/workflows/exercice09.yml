@@ -46,19 +46,19 @@ jobs:
 
       - name: Exécuter PMD ExerciceTableaux1
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux1/src/*.java -R pmd-ruleset.xml -f text || true
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux1/src/*.java -R pmd-ruleset.xml -f text
 
       - name: Exécuter PMD ExerciceTableaux3
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux2/src/*.java -R pmd-ruleset.xml -f text || true
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux2/src/*.java -R pmd-ruleset.xml -f text
       
       - name: Exécuter PMD ExerciceTableaux1
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux3/src/*.java -R pmd-ruleset.xml -f text || true
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux3/src/*.java -R pmd-ruleset.xml -f text
 
       - name: Exécuter PMD ExerciceTableaux4
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux4/src/*.java -R pmd-ruleset.xml -f text || true    
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux4/src/*.java -R pmd-ruleset.xml -f text   
 
       - name: Lancer uniquement le test Exercice09
         run: mvn -Dtest=exercices.Exercice09Test test
