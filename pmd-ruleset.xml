@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Test TPI"
+<ruleset name="Règles TPI structure Java"
          xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 
          http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
 
     <description>
-        Règles pour tester la présence d'accolades dans les if.
+        Règles utilisées pour détecter des structures dans le code Java.
     </description>
 
-    <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces"/>
+    <!-- S'assure que les switch ont un default -->
+    <rule ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault"/>
 
+    <!-- Vérifie que les boucles for ont des accolades -->
+    <rule ref="category/java/codestyle.xml/ForLoopsMustUseBraces"/>
+
+    <!-- Vérifie que les if ont des accolades aussi -->
+    <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces"/>
 </ruleset>
