@@ -1,6 +1,6 @@
 package exercices.exercice10;
 
-public class Methodes {
+public class methodes {
     public static void main(String[] args) {
 
         direBonjour();
