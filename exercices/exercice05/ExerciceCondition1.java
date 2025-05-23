@@ -7,7 +7,8 @@ public class ExerciceCondition1 {
 
         if (valeurATester > 0)
             System.out.println("La valeur est positive");
-
+        else
+            System.out.println("La valeur est négative");
         
     }
 }
