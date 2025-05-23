@@ -34,7 +34,7 @@ jobs:
 
       - name: Lancer PMD sur exercice05
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice05/ -R pmd-ruleset.xml -f text > rapport-pmd.txt
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice05/*.java -R pmd-ruleset.xml -f text > rapport-pmd.txt
           echo "Contenu du rapport PMD :"
           cat rapport-pmd.txt
           if [ ! -s rapport-pmd.txt ]; then
