@@ -31,5 +31,18 @@ jobs:
         run: |
           java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice08/ExerciceBoucles2/src/*.java || true
 
+      - name: Télécharger PMD
+        run: |
+          curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
+          unzip pmd-bin-6.55.0.zip
+
+      - name: Exécuter PMD ExerciceBoucle1
+        run: |
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice08/ExerciceBoucles1/src/*.java -R pmd-ruleset.xml -f text || true
+
+      - name: Exécuter PMD ExerciceBoucle2
+        run: |
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice08/ExerciceBoucles2/src/*.java -R pmd-ruleset.xml -f text || true 
+
       - name: Lancer uniquement le test Exercice08
         run: mvn -Dtest=exercices.Exercice08Test test

@@ -39,5 +39,26 @@ jobs:
         run: |
           java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux4/src/*.java || true
 
+      - name: Télécharger PMD
+        run: |
+          curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
+          unzip pmd-bin-6.55.0.zip
+
+      - name: Exécuter PMD ExerciceTableaux1
+        run: |
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux1/src/*.java -R pmd-ruleset.xml -f text || true
+
+      - name: Exécuter PMD ExerciceTableaux3
+        run: |
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux2/src/*.java -R pmd-ruleset.xml -f text || true
+      
+      - name: Exécuter PMD ExerciceTableaux1
+        run: |
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux3/src/*.java -R pmd-ruleset.xml -f text || true
+
+      - name: Exécuter PMD ExerciceTableaux4
+        run: |
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux4/src/*.java -R pmd-ruleset.xml -f text || true    
+
       - name: Lancer uniquement le test Exercice09
         run: mvn -Dtest=exercices.Exercice09Test test
