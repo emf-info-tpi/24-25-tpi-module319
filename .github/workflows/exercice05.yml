@@ -32,10 +32,16 @@ jobs:
           curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
           unzip pmd-bin-6.55.0.zip
 
-      - name: Exécuter PMD
+      - name: Lancer PMD sur exercice05
         run: |
           ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice05/ -R pmd-ruleset.xml -f text > rapport-pmd.txt
+          echo "Contenu du rapport PMD :"
           cat rapport-pmd.txt
+          if [ ! -s rapport-pmd.txt ]; then
+            echo "✅ Aucun problème détecté par PMD."
+          else
+            echo "❌ Des erreurs PMD ont été trouvées."
+          fi
 
 
       - name: Lancer uniquement le test Exercice05
