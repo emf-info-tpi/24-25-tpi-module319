@@ -34,7 +34,9 @@ jobs:
 
       - name: Exécuter PMD
         run: |
-          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice05/*.java -R pmd-ruleset.xml -f text --debug
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice05/ -R pmd-ruleset.xml -f text > rapport-pmd.txt
+          cat rapport-pmd.txt
+
 
       - name: Lancer uniquement le test Exercice05
         run: mvn -Dtest=exercices.Exercice05Test test
