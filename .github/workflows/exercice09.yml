@@ -1,0 +1,100 @@
+name: Vérification Exercice 09
+
+on: [push]
+  #push:
+   # paths:
+    #  - 'exercices/exercice09/**'
+
+jobs:
+  exercice09:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cloner le dépôt
+        uses: actions/checkout@v3
+
+      - name: Installer Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Télécharger CheckStyle
+        run: |
+          curl -LJO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux1
+        run: |
+          echo "Vérification des conventions EMF (CheckStyle) ExerciceTableaux1"
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux1/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux2
+        run: |
+          echo "Vérification des conventions EMF (CheckStyle) ExerciceTableaux2"
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux2/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux3
+        run: |
+          echo "Vérification des conventions EMF (CheckStyle) ExerciceTableaux3"
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux3/src/*.java || true
+
+      - name: Vérifier les conventions EMF (CheckStyle) ExerciceTableaux4
+        run: |
+          echo "Vérification des conventions EMF (CheckStyle) ExerciceTableaux4"
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice09/ExerciceTableaux4/src/*.java || true
+
+      - name: Télécharger PMD
+        run: |
+          curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
+          unzip pmd-bin-6.55.0.zip
+
+      - name: Lancer l'analyse PMD ExerciceTableaux1
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice09/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux1/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer l'analyse PMD ExerciceTableaux2
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice09/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux2/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer l'analyse PMD ExerciceTableaux3
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice09/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux3/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer l'analyse PMD ExerciceTableaux4
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice09/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice09/ExerciceTableaux4/src/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer uniquement le test Exercice09
+        run: mvn -Dtest=exercices.Exercice09Test test

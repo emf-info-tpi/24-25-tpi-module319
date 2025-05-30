@@ -1,0 +1,49 @@
+name: Vérification Exercice 06
+
+on: [push]
+  #push:
+  #  paths:
+    #  - 'exercices/exercice06/**'
+
+jobs:
+  exercice06:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cloner le dépôt
+        uses: actions/checkout@v3
+
+      - name: Installer Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Télécharger CheckStyle
+        run: |
+          curl -LJO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar
+
+      - name: Vérifier les conventions EMF (CheckStyle)
+        run: |
+          echo "Vérification des conventions EMF (CheckStyle)"
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice06/*.java || true
+
+      - name: Télécharger PMD
+        run: |
+          curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip
+          unzip pmd-bin-6.55.0.zip
+
+      - name: Lancer l'analyse PMD
+        run: |
+          echo "🚀 Analyse PMD en cours..."
+          echo "📄 Fichiers analysés : exercices/exercice06/*.java"
+          echo "🧠 Règles appliquées :"
+          echo "   - Structures de contrôle (if, else, for, while) doivent avoir des accolades"
+          echo "   - Les blocs switch doivent contenir un 'default'"
+
+          ./pmd-bin-6.55.0/bin/run.sh pmd -d exercices/exercice06/ -R pmd-ruleset.xml -f text || true
+
+          echo "✅ Analyse PMD terminée."
+
+      - name: Lancer uniquement le test Exercice06
+        run: mvn -Dtest=exercices.Exercice06Test test

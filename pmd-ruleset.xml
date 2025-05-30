@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Règles PMD Java TPI"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 
+         http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        Règles PMD pour vérifier les structures attendues dans les exercices du module 319 : 
+        présence d'accolades, switch complet, etc.
+    </description>
+
+    <!-- Vérifie que les instructions if, else, for, while ont toujours des accolades -->
+    <rule ref="category/java/codestyle.xml/ControlStatementBraces" />
+
+    <!-- Vérifie que tous les switch ont une clause default -->
+    <rule ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault" />
+
+</ruleset>

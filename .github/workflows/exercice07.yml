@@ -1,0 +1,32 @@
+name: Vérification Exercice 07
+
+on: [push]
+  #push:
+  #  paths:
+   #  - 'exercices/exercice07/**'
+
+jobs:
+  exercice07:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cloner le dépôt
+        uses: actions/checkout@v3
+
+      - name: Installer Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Télécharger CheckStyle
+        run: |
+          curl -LJO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar
+
+      - name: Vérifier les conventions EMF (CheckStyle)
+        run: |
+          echo "Vérification des conventions EMF (CheckStyle)"
+          java -jar checkstyle-10.12.4-all.jar -c checkstyle.xml exercices/exercice07/*.java || true
+
+      - name: Lancer uniquement le test Exercice07
+        run: mvn -Dtest=exercices.Exercice07Test test
