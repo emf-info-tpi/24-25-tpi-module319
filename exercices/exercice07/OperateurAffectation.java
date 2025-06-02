@@ -7,5 +7,6 @@ public class OperateurAffectation {
         a -= 1;
         a *= 3;
         a /= 2;
+        
     }
 }
