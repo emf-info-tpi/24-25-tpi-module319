@@ -18,20 +18,20 @@ public class Exercice07Test {
     public void testPresenceFichiersOperateurs() {
         // Liste des fichiers attendus dans l'exercice07
         String[] noms = {
-            "operateurCalcul.java",
-            "operateurAffectation.java",
-            "operateurLogique.java",
-            "operateurIncrementation.java",
-            "operateurComparaison.java"
+            "OperateurCalcul.java",
+            "OperateurAffectation.java",
+            "OperateurLogique.java",
+            "OperateurIncrementation.java",
+            "OperateurComparaison.java"
         };
         /*
         // Variante pour tester les fichiers WithErrors (décommenter si nécessaire)
         String[] noms = {
-            "operateurCalculWithErrors.java",
-            "operateurAffectationWithErrors.java",
-            "operateurLogiqueWithErrors.java",
-            "operateurIncrementationWithErrors.java",
-            "operateurComparaisonWithErrors.java"
+            "OperateurCalculWithErrors.java",
+            "OperateurAffectationWithErrors.java",
+            "OperateurLogiqueWithErrors.java",
+            "OperateurIncrementationWithErrors.java",
+            "OperateurComparaisonWithErrors.java"
         };
         */
         // Vérifie que chaque fichier est bien présent
@@ -44,36 +44,36 @@ public class Exercice07Test {
     @Test
     public void testOperateurCalcul() {
         // Vérifie que le fichier operateurCalcul.java contient au moins un des opérateurs +, -, *, /
-        verifierContenuFichier("exercices/exercice07/operateurCalcul.java", new String[]{"+", "-", "*", "/"});
-        //verifierContenuFichier("exercices/exercice07/operateurCalculWithErrors.java", new String[]{"+", "-", "*", "/"});
+        verifierContenuFichier("exercices/exercice07/OperateurCalcul.java", new String[]{"+", "-", "*", "/"});
+        //verifierContenuFichier("exercices/exercice07/OperateurCalculWithErrors.java", new String[]{"+", "-", "*", "/"});
     }
 
     @Test
     public void testOperateurAffectation() {
         // Vérifie que le fichier operateurAffectation.java contient les opérateurs d'affectation attendus
-        verifierContenuFichier("exercices/exercice07/operateurAffectation.java", new String[]{"=", "+=", "-=", "*=", "/="});
-        //verifierContenuFichier("exercices/exercice07/operateurAffectationWithErrors.java", new String[]{"=", "+=", "-=", "*=", "/="});
+        verifierContenuFichier("exercices/exercice07/OperateurAffectation.java", new String[]{"=", "+=", "-=", "*=", "/="});
+        //verifierContenuFichier("exercices/exercice07/OperateurAffectationWithErrors.java", new String[]{"=", "+=", "-=", "*=", "/="});
     }
 
     @Test
     public void testOperateurLogique() {
         // Vérifie que le fichier operateurLogique.java contient les opérateurs logiques attendus
-        verifierContenuFichier("exercices/exercice07/operateurLogique.java", new String[]{"&&", "||", "!"});
-        //verifierContenuFichier("exercices/exercice07/operateurLogiqueWithErrors.java", new String[]{"&&", "||", "!"});
+        verifierContenuFichier("exercices/exercice07/OperateurLogique.java", new String[]{"&&", "||", "!"});
+        //verifierContenuFichier("exercices/exercice07/OperateurLogiqueWithErrors.java", new String[]{"&&", "||", "!"});
     }
 
     @Test
     public void testOperateurIncrementation() {
         // Vérifie que le fichier operateurIncrementation.java contient ++ et --
-        verifierContenuFichier("exercices/exercice07/operateurIncrementation.java", new String[]{"++", "--"});
-        //verifierContenuFichier("exercices/exercice07/operateurIncrementationWithErrors.java", new String[]{"++", "--"});
+        verifierContenuFichier("exercices/exercice07/OperateurIncrementation.java", new String[]{"++", "--"});
+        //verifierContenuFichier("exercices/exercice07/OperateurIncrementationWithErrors.java", new String[]{"++", "--"});
     }
 
     @Test
     public void testOperateurComparaison() {
         // Vérifie que le fichier operateurComparaison.java contient les opérateurs de comparaison
-        verifierContenuFichier("exercices/exercice07/operateurComparaison.java", new String[]{"==", "!=", ">", "<", ">=", "<="});
-        //verifierContenuFichier("exercices/exercice07/operateurComparaisonWithErrors.java", new String[]{"==", "!=", ">", "<", ">=", "<="});
+        verifierContenuFichier("exercices/exercice07/OperateurComparaison.java", new String[]{"==", "!=", ">", "<", ">=", "<="});
+        //verifierContenuFichier("exercices/exercice07/OperateurComparaisonWithErrors.java", new String[]{"==", "!=", ">", "<", ">=", "<="});
     }
 
     /**

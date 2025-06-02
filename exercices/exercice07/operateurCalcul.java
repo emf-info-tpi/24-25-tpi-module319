@@ -1,6 +1,6 @@
 package exercices.exercice07;
 
-public class operateurCalcul {
+public class OperateurCalcul {
     public static void main(String[] args) {
         int a = 5 + 3;
         int b = 10 - 4;

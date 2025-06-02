@@ -1,6 +1,6 @@
 /*package exercices.exercice07;
 
-public class operateurComparaisonWithErrors {
+public class OperateurComparaisonWithErrors {
     public static void main(String[] args) {
         int a;
         int b;

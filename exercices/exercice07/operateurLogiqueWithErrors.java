@@ -1,6 +1,6 @@
 /*package exercices.exercice07;
 
-public class operateurLogiqueWithErrors {
+public class OperateurLogiqueWithErrors {
     public static void main(String[] args) {
         boolean a = ;
         boolean b = ;

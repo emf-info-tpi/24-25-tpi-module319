@@ -1,6 +1,6 @@
 /*package exercices.exercice07;
 
-public class operateurCalculWithErrors {
+public class OperateurCalculWithErrors {
     public static void main(String[] args) {
         int a = 5 + ;
         int b = 10 -;

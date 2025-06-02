@@ -1,6 +1,6 @@
 /*package exercices.exercice07;
 
-public class operateurAffectationWithErrors {
+public class OperateurAffectationWithErrors {
     public static void main(String[] args) {
         int a;
         a += ;
