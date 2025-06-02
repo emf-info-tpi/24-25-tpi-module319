@@ -1,9 +1,9 @@
 name: Vérification Exercice 02
 
-on: #[push]
-  push:
-    paths:
-      - 'exercices/exercice02/**'
+on: [push]
+  #push:
+   # paths:
+    #  - 'exercices/exercice02/**'
 
 jobs:
   exercice02:
