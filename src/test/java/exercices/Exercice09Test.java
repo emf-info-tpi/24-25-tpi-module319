@@ -9,10 +9,18 @@ import java.lang.reflect.Modifier;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test JUnit pour l'Exercice 09 : vérifie la présence et la bonne implémentation des fichiers liés aux tableaux.
+ * 
+ * - Vérifie la présence des fichiers App.java pour chaque exercice.
+ * - Vérifie le contenu du code source : tableaux, constantes, méthodes, structures et logique attendue.
+ * - Vérifie la présence de la méthode random(), des boucles, des variables, et des affichages attendus.
+ */
 public class Exercice09Test {
 
     @Test
     public void testPresenceFichiers() {
+        // Vérifie que les fichiers App.java existent dans chaque dossier ExerciceTableaux
         assertTrue(new File("exercices/exercice09/ExerciceTableaux1/src/App.java").exists(),
             "❌ App.java n'a pas été trouvé dans le dossier ExerciceTableaux1");
         assertTrue(new File("exercices/exercice09/ExerciceTableaux2/src/App.java").exists(),
@@ -21,6 +29,7 @@ public class Exercice09Test {
             "❌ App.java n'a pas été trouvé dans le dossier ExerciceTableaux3");
         assertTrue(new File("exercices/exercice09/ExerciceTableaux4/src/App.java").exists(),
             "❌ App.java n'a pas été trouvé dans le dossier ExerciceTableaux4");
+        // (Décommenter les lignes suivantes pour tester les fichiers WithErrors)
         //assertTrue(new File("exercices/exercice09/ExerciceTableaux1/src/AppWithErrors.java").exists(),
         //    "❌ App.java n'a pas été trouvé dans le dossier ExerciceTableaux1");
         //assertTrue(new File("exercices/exercice09/ExerciceTableaux2/src/AppWithErrors.java").exists(),
@@ -33,25 +42,28 @@ public class Exercice09Test {
 
     @Test
     public void verifierExerciceTableaux1() {
+        // Vérifie que le fichier App.java est présent pour ExerciceTableaux1
         File fichier = new File("exercices/exercice09/ExerciceTableaux1/src/App.java");
-        //File fichier = new File("exercices/exercice09/ExerciceTableaux1/src/AppWithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier App.java est manquant dans ExerciceTableaux1.");
 
+        // Drapeaux pour vérifier la présence des tableaux et des affichages
         boolean contientTableauInt = false;
         boolean contientTableauString = false;
         boolean contientAffichage = false;
 
+        // Parcourt le fichier ligne par ligne
         try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
             String ligne;
             while ((ligne = reader.readLine()) != null) {
-                if (ligne.contains("int[]")) contientTableauInt = true;
-                if (ligne.contains("String[]")) contientTableauString = true;
-                if (ligne.contains("System.out.println")) contientAffichage = true;
+                if (ligne.contains("int[]")) contientTableauInt = true; // Vérifie la déclaration d'un tableau int[]
+                if (ligne.contains("String[]")) contientTableauString = true; // Vérifie la déclaration d'un tableau String[]
+                if (ligne.contains("System.out.println")) contientAffichage = true; // Vérifie la présence d'un affichage
             }
         } catch (Exception e) {
             fail("❌ Erreur lors de la lecture du fichier App.java.");
         }
 
+        // Vérifications finales avec messages d'erreur clairs
         assertTrue(contientTableauInt, "⚠️ Le tableau int[] doit être déclaré.");
         assertTrue(contientTableauString, "⚠️ Le tableau String[] doit être déclaré.");
         assertTrue(contientAffichage, "⚠️ Les valeurs des tableaux doivent être affichées.");
@@ -59,17 +71,19 @@ public class Exercice09Test {
 
     @Test
     public void verifierExerciceTableaux2() {
+        // Vérifie la présence des constantes MIN et MAX dans la classe App
         try {
             Class<?> clazz = Class.forName("exercices.exercice09.exercicetableaux2.App");
-            //Class<?> clazz = Class.forName("exercices.exercice09.exercicetableaux2.AppWithErrors");
 
             Field minField = clazz.getDeclaredField("MIN");
             Field maxField = clazz.getDeclaredField("MAX");
 
+            // Vérifie que MIN est static, final et de type int
             assertTrue(Modifier.isStatic(minField.getModifiers()), "❌ La constante MIN doit être static.");
             assertTrue(Modifier.isFinal(minField.getModifiers()), "❌ La constante MIN doit être final.");
             assertEquals(int.class, minField.getType(), "❌ La constante MIN doit être de type int.");
 
+            // Vérifie que MAX est static, final et de type int
             assertTrue(Modifier.isStatic(maxField.getModifiers()), "❌ La constante MAX doit être static.");
             assertTrue(Modifier.isFinal(maxField.getModifiers()), "❌ La constante MAX doit être final.");
             assertEquals(int.class, maxField.getType(), "❌ La constante MAX doit être de type int.");
@@ -78,6 +92,7 @@ public class Exercice09Test {
             fail("❌ Les constantes MIN ou MAX sont manquantes ou incorrectes.");
         }
 
+        // Vérifie la présence de l'utilisation de Math.random() ou Random dans le code source
         File fichier = new File("exercices/exercice09/ExerciceTableaux2/src/AppWithErrors.java");
         boolean contientRandom = false;
 
@@ -98,21 +113,17 @@ public class Exercice09Test {
 
     @Test
     public void verifierExerciceTableaux3() {
-        verifierExerciceTableaux2(); // Vérifie aussi MIN, MAX, random
+        verifierExerciceTableaux2(); // Vérifie les constantes et random
         File fichier = new File("exercices/exercice09/ExerciceTableaux3/src/App.java");
-        //File fichier = new File("exercices/exercice09/ExerciceTableaux3/src/AppWithErrors.java");
         boolean contientMoyenne = false;
         boolean contientRandom = false;
 
+        // Vérifie la présence des mots-clés "moyenne" et l'utilisation de random
         try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
             String ligne;
             while ((ligne = reader.readLine()) != null) {
-                if (ligne.toLowerCase().contains("moyenne")) {
-                    contientMoyenne = true;
-                }
-                if (ligne.contains("Math.random") || ligne.contains("new Random")) {
-                    contientRandom = true;
-                }
+                if (ligne.toLowerCase().contains("moyenne")) contientMoyenne = true;
+                if (ligne.contains("Math.random") || ligne.contains("new Random")) contientRandom = true;
             }
         } catch (Exception e) {
             fail("❌ Erreur lors de la lecture du fichier App.java.");
@@ -125,13 +136,13 @@ public class Exercice09Test {
     @Test
     public void verifierExerciceTableaux4() {
         File fichier = new File("exercices/exercice09/ExerciceTableaux4/src/App.java");
-        //File fichier = new File("exercices/exercice09/ExerciceTableaux4/src/AppWithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier App.java est manquant dans ExerciceTableaux4.");
 
         boolean contientVariableDepart = false;
         boolean contientBoucleFor = false;
         boolean incrementeCorrectement = false;
 
+        // Vérifie la présence de la variable 'nombreDepart', d'une boucle for et du calcul correct dans la boucle
         try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
             String ligne;
             while ((ligne = reader.readLine()) != null) {

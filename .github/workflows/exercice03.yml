@@ -1,7 +1,9 @@
 name: Vérification Exercice 03
 
-on: [push]
-
+on: #[push]
+  push:
+    paths:
+      - 'exercices/exercice03/**'
 jobs:
   exercice03:
     runs-on: ubuntu-latest
