@@ -20,9 +20,9 @@ public class Exercice02Test {
     @Test
     public void verifierContenuFichier() {
         // Vérifie la présence du fichier Exercice02.java
-        //File fichier = new File("exercices/exercice02/Exercice02.java");
+        File fichier = new File("exercices/exercice02/Exercice02.java");
         // (Décommenter la ligne suivante pour tester le fichier WithErrors)
-        File fichier = new File("exercices/exercice02/Exercice02WithErrors.java");
+        //File fichier = new File("exercices/exercice02/Exercice02WithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier Exercice02.java n'a pas été trouvé dans le dossier exercice02.");
 
         // Variables pour vérifier si chaque élément est trouvé
