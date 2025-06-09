@@ -18,9 +18,9 @@ public class Exercice03Test {
     @Test
     public void verifierStructureEtVariables() {
         // Vérifie que le fichier TypesDeBase.java existe bien
-        File fichier = new File("exercices/exercice03/TypesDeBase.java");
+        //File fichier = new File("exercices/exercice03/TypesDeBase.java");
         // (Décommenter la ligne suivante pour tester le fichier WithErrors)
-        // File fichier = new File("exercices/exercice03/TypesDeBaseWithErrors.java");
+        File fichier = new File("exercices/exercice03/TypesDeBaseWithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier TypesDeBase.java n'a pas été trouvé dans le dossier exercice03.");
 
         // Variables pour vérifier si chaque élément est trouvé

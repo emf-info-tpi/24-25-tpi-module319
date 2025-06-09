@@ -20,9 +20,9 @@ public class Exercice06Test {
     @Test
     public void verifierExerciceSwitch1() {
         // Vérifie la présence du fichier ExerciceSwitch1.java dans le dossier exercice06
-        File fichier = new File("exercices/exercice06/ExerciceSwitch1.java");
+        //File fichier = new File("exercices/exercice06/ExerciceSwitch1.java");
         // (Décommenter la ligne suivante pour tester le fichier WithErrors)
-        // File fichier = new File("exercices/exercice06/ExerciceSwitch1WithErrors.java");
+         File fichier = new File("exercices/exercice06/ExerciceSwitch1WithErrors.java");
         assertTrue(fichier.exists(), "❌ ExerciceSwitch1.java n'a pas été trouvé dans le dossier 'exercice06'.");
 
         // Prépare des drapeaux pour vérifier chaque élément attendu dans le code

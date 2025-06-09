@@ -21,9 +21,9 @@ public class Exercice05Test {
     @Test
     public void verifierExerciceCondition1() {
         // Vérifie la présence du fichier ExerciceCondition1.java dans le bon dossier
-        File fichier = new File("exercices/exercice05/ExerciceCondition1.java");
+        //File fichier = new File("exercices/exercice05/ExerciceCondition1.java");
         // (Décommenter la ligne suivante pour tester le fichier WithErrors)
-        // File fichier = new File("exercices/exercice05/ExerciceCondition1WithErrors.java");
+         File fichier = new File("exercices/exercice05/ExerciceCondition1WithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier ExerciceCondition1.java n'a pas été trouvé dans le dossier exercice05.");
 
         // Préparation des drapeaux pour vérifier chaque élément du code

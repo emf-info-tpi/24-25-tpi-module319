@@ -17,9 +17,9 @@ public class Exercice01Test {
     @Test
     public void testFichierEtCommentaire() {
         // Vérifie si le fichier Exercice01.java est bien présent dans le dossier exercices/exercice01
-        File fichier = new File("exercices/exercice01/Exercice01.java");
+        //File fichier = new File("exercices/exercice01/Exercice01.java");
         // (Décommenter la ligne ci-dessous pour tester la version WithErrors)
-        // File fichier = new File("exercices/exercice01/Exercice01WithErrors.java");
+        File fichier = new File("exercices/exercice01/Exercice01WithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier Exercice01.java n'a pas été trouvé dans le dossier exercice01.");
 
         boolean commentaireTrouve = false;
