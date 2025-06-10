@@ -5,7 +5,7 @@ public class EchangeValeursWithErrors {
     public static void main(String[] args) {
 
         int variable1 = 1; // Mauvaise notation (MAJUSCULE au lieu de camelCase)
-        int variableDeux = 3; // Mauvais nom de variable et mauvaise valeur (doit être 2)
+        int variable2 = 2; // Mauvais nom de variable et mauvaise valeur (doit être 2)
 
         System.out.println("Le contenu de la variable1 est : " + variable1);
         // Manque l'affichage de variable2
