@@ -20,9 +20,9 @@ public class Exercice04Test {
     @Test
     public void verifierContenuDuCode() {
         // Vérifie si le fichier EchangeValeurs.java est bien présent
-        File fichier = new File("exercices/exercice04/EchangeValeurs.java");
+       // File fichier = new File("exercices/exercice04/EchangeValeurs.java");
         // (Décommenter la ligne suivante pour tester le fichier WithErrors)
-        //File fichier = new File("exercices/exercice04/EchangeValeursWithErrors.java");
+    File fichier = new File("exercices/exercice04/EchangeValeursWithErrors.java");
         assertTrue(fichier.exists(), "❌ Le fichier EchangeValeurs.java n'a pas été trouvé dans le dossier exercice04.");
 
         // Prépare des drapeaux pour vérifier les éléments du code
